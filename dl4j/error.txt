@@ -1,0 +1,50 @@
+o.n.n.NativeOps - Number of threads used for NativeOps: 4
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.e.f.LogMLP - Build model....
+o.d.o.l.ScoreIterationListener - Score at iteration 0 is 2.937107348577838
+o.d.e.f.LogMLP - 
+Examples labeled as 11 classified by model as 5: 1 times
+Examples labeled as 11 classified by model as 11: 8 times
+Examples labeled as 11 classified by model as 15: 6 times
+Examples labeled as 11 classified by model as 16: 1 times
+Examples labeled as 11 classified by model as 17: 2 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 0 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 4 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 5 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 10 was never predicted by the model. This class was excluded from the average precision
+Warning: class 10 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 12 was never predicted by the model. This class was excluded from the average precision
+Warning: class 12 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 13 was never predicted by the model. This class was excluded from the average precision
+Warning: class 13 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 14 was never predicted by the model. This class was excluded from the average precision
+Warning: class 14 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 15 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 16 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 17 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 18 was never predicted by the model. This class was excluded from the average precision
+Warning: class 18 has never appeared as a true label. This class was excluded from the average recall
+
+==========================Scores========================================
+ Accuracy:  0.4444
+ Precision: 0.2
+ Recall:    0.4444
+ F1 Score:  0.2759
+========================================================================
