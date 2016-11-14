@@ -1,0 +1,1142 @@
+"C:\Program Files\Java\jdk1.8.0_91\bin\java" -Didea.launcher.port=7532 "-Didea.launcher.bin.path=D:\program\JetBrains\IntelliJ IDEA Community Edition 2016.2.5\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Users\Administrator\dl4j-examples\dl4j-examples\target\classes;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native-platform\0.6.0\nd4j-native-platform-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native\0.6.0\nd4j-native-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native-api\0.6.0\nd4j-native-api-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native\0.6.0\nd4j-native-0.6.0-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native\0.6.0\nd4j-native-0.6.0-macosx-x86_64.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native\0.6.0\nd4j-native-0.6.0-windows-x86_64.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-native\0.6.0\nd4j-native-0.6.0-linux-ppc64le.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\deeplearning4j-core\0.6.0\deeplearning4j-core-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.12\slf4j-api-1.7.12.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\deeplearning4j-nn\0.6.0\deeplearning4j-nn-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-math3\3.4.1\commons-math3-3.4.1.jar;C:\Users\Administrator\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-compress\1.8\commons-compress-1.8.jar;C:\Users\Administrator\.m2\repository\org\tukaani\xz\1.5\xz-1.5.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-api\0.6.0\nd4j-api-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-buffer\0.6.0\nd4j-buffer-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-common\0.6.0\nd4j-common-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\reflections\reflections\0.9.10\reflections-0.9.10.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\annotations\2.0.1\annotations-2.0.1.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-context\0.6.0\nd4j-context-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-lang3\3.3.1\commons-lang3-3.3.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.5.1\jackson-core-2.5.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.5.1\jackson-databind-2.5.1.jar;C:\Users\Administrator\.m2\repository\org\json\json\20131018\json-20131018.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.5.1\jackson-annotations-2.5.1.jar;C:\Users\Administrator\.m2\repository\org\projectlombok\lombok\1.16.4\lombok-1.16.4.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.5.1\jackson-dataformat-yaml-2.5.1.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar;C:\Users\Administrator\.m2\repository\org\datavec\datavec-nd4j-common\0.6.0\datavec-nd4j-common-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\datavec\datavec-api\0.6.0\datavec-api-0.6.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-joda\2.4.4\jackson-datatype-joda-2.4.4.jar;C:\Users\Administrator\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar;C:\Users\Administrator\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Administrator\.m2\repository\org\datavec\datavec-data-image\0.6.0\datavec-data-image-0.6.0.jar;C:\Users\Administrator\.m2\repository\com\github\jai-imageio\jai-imageio-core\1.3.0\jai-imageio-core-1.3.0.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-jpeg\3.1.1\imageio-jpeg-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-core\3.1.1\imageio-core-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-metadata\3.1.1\imageio-metadata-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\common\common-lang\3.1.1\common-lang-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\common\common-io\3.1.1\common-io-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\common\common-image\3.1.1\common-image-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-tiff\3.1.1\imageio-tiff-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-psd\3.1.1\imageio-psd-3.1.1.jar;C:\Users\Administrator\.m2\repository\com\twelvemonkeys\imageio\imageio-bmp\3.1.1\imageio-bmp-3.1.1.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp\1.2.4\javacpp-1.2.4.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacv\1.2\javacv-1.2.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2-windows-x86.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2-macosx-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2-windows-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\opencv\3.1.0-1.2\opencv-3.1.0-1.2-linux-ppc64le.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2-windows-x86.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2-macosx-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2-windows-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\ffmpeg\3.0.2-1.2\ffmpeg-3.0.2-1.2-linux-ppc64le.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2-windows-x86.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2-linux-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2-macosx-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2-windows-x86_64.jar;C:\Users\Administrator\.m2\repository\org\bytedeco\javacpp-presets\leptonica\1.73-1.2\leptonica-1.73-1.2-linux-ppc64le.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\deeplearning4j-nlp\0.6.0\deeplearning4j-nlp-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\apache\directory\studio\org.apache.commons.codec\1.8\org.apache.commons.codec-1.8.jar;C:\Users\Administrator\.m2\repository\commons-codec\commons-codec\1.8\commons-codec-1.8.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-assets\0.8.0\dropwizard-assets-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-core\0.8.0\dropwizard-core-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-util\0.8.0\dropwizard-util-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-jackson\0.8.0\dropwizard-jackson-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk7\2.5.1\jackson-datatype-jdk7-2.5.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-guava\2.5.1\jackson-datatype-guava-2.5.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\module\jackson-module-afterburner\2.5.1\jackson-module-afterburner-2.5.1.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-validation\0.8.0\dropwizard-validation-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\hibernate\hibernate-validator\5.1.3.Final\hibernate-validator-5.1.3.Final.jar;C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\classmate\1.0.0\classmate-1.0.0.jar;C:\Users\Administrator\.m2\repository\org\glassfish\javax.el\3.0.0\javax.el-3.0.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-configuration\0.8.0\dropwizard-configuration-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-logging\0.8.0\dropwizard-logging-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-logback\3.1.0\metrics-logback-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.10\jul-to-slf4j-1.7.10.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.1.2\logback-core-1.1.2.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.10\log4j-over-slf4j-1.7.10.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.10\jcl-over-slf4j-1.7.10.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-util\9.2.9.v20150224\jetty-util-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-metrics\0.8.0\dropwizard-metrics-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-jersey\0.8.0\dropwizard-jersey-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\core\jersey-server\2.16\jersey-server-2.16.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.16\jersey-media-jaxb-2.16.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\ext\jersey-metainf-services\2.16\jersey-metainf-services-2.16.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-jersey2\3.1.0\metrics-jersey2-3.1.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-json-provider\2.5.1\jackson-jaxrs-json-provider-2.5.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\jaxrs\jackson-jaxrs-base\2.5.1\jackson-jaxrs-base-2.5.1.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.5.1\jackson-module-jaxb-annotations-2.5.1.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet\2.16\jersey-container-servlet-2.16.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\containers\jersey-container-servlet-core\2.16\jersey-container-servlet-core-2.16.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-server\9.2.9.v20150224\jetty-server-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-io\9.2.9.v20150224\jetty-io-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-webapp\9.2.9.v20150224\jetty-webapp-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-xml\9.2.9.v20150224\jetty-xml-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-continuation\9.2.9.v20150224\jetty-continuation-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-jetty\0.8.0\dropwizard-jetty-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-jetty9\3.1.0\metrics-jetty9-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-servlet\9.2.9.v20150224\jetty-servlet-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-security\9.2.9.v20150224\jetty-security-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-servlets\9.2.9.v20150224\jetty-servlets-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-http\9.2.9.v20150224\jetty-http-9.2.9.v20150224.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-lifecycle\0.8.0\dropwizard-lifecycle-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-core\3.1.0\metrics-core-3.1.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-jvm\3.1.0\metrics-jvm-3.1.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-servlets\3.1.0\metrics-servlets-3.1.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-json\3.1.0\metrics-json-3.1.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-healthchecks\3.1.0\metrics-healthchecks-3.1.0.jar;C:\Users\Administrator\.m2\repository\net\sourceforge\argparse4j\argparse4j\0.4.4\argparse4j-0.4.4.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\toolchain\setuid\jetty-setuid-java\1.0.2\jetty-setuid-java-1.0.2.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-servlets\0.8.0\dropwizard-servlets-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-annotation\3.1.0\metrics-annotation-3.1.0.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.1.2\logback-classic-1.1.2.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-views-mustache\0.8.0\dropwizard-views-mustache-0.8.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-views\0.8.0\dropwizard-views-0.8.0.jar;C:\Users\Administrator\.m2\repository\com\github\spullara\mustache\java\compiler\0.8.17\compiler-0.8.17.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-views-freemarker\0.8.0\dropwizard-views-freemarker-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\nd4j\nd4j-jackson\0.6.0\nd4j-jackson-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\deeplearning4j-ui\0.6.0\deeplearning4j-ui-0.6.0.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-client\0.8.0\dropwizard-client-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\core\jersey-client\2.16\jersey-client-2.16.jar;C:\Users\Administrator\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\hk2-api\2.4.0-b09\hk2-api-2.4.0-b09.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\hk2-utils\2.4.0-b09\hk2-utils-2.4.0-b09.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.4.0-b09\aopalliance-repackaged-2.4.0-b09.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\external\javax.inject\2.4.0-b09\javax.inject-2.4.0-b09.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\hk2-locator\2.4.0-b09\hk2-locator-2.4.0-b09.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\metrics\metrics-httpclient\3.1.0\metrics-httpclient-3.1.0.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpclient\4.3.5\httpclient-4.3.5.jar;C:\Users\Administrator\.m2\repository\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\connectors\jersey-apache-connector\2.16\jersey-apache-connector-2.16.jar;C:\Users\Administrator\.m2\repository\io\dropwizard\dropwizard-forms\0.8.0\dropwizard-forms-0.8.0.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\media\jersey-media-multipart\2.16\jersey-media-multipart-2.16.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\core\jersey-common\2.16\jersey-common-2.16.jar;C:\Users\Administrator\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\Administrator\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.16\jersey-guava-2.16.jar;C:\Users\Administrator\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\Administrator\.m2\repository\org\jvnet\mimepull\mimepull\1.9.3\mimepull-1.9.3.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\Administrator\.m2\repository\org\datavec\datavec-data-codec\0.6.0\datavec-data-codec-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\jcodec\jcodec\0.1.5\jcodec-0.1.5.jar;C:\Users\Administrator\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Users\Administrator\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Users\Administrator\.m2\repository\org\jfree\jcommon\1.0.23\jcommon-1.0.23.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\arbiter-deeplearning4j\0.6.0\arbiter-deeplearning4j-0.6.0.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\arbiter-core\0.6.0\arbiter-core-0.6.0.jar;C:\Users\Administrator\.m2\repository\args4j\args4j\2.33\args4j-2.33.jar;C:\Users\Administrator\.m2\repository\org\deeplearning4j\deeplearning4j-ui-components\0.6.0\deeplearning4j-ui-components-0.6.0.jar;D:\program\JetBrains\IntelliJ IDEA Community Edition 2016.2.5\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain org.deeplearning4j.examples.feedforward.LogAnalysisMLP
+o.n.n.NativeOps - Number of threads used for NativeOps: 4
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+INFO  [2016-11-14 21:50:54,475] org.eclipse.jetty.util.log: Logging initialized @16564ms
+INFO  [2016-11-14 21:50:54,626] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: assets for path /assets/*
+      port: 8080
+      port: 8081
+WARN  [2016-11-14 21:50:54,949] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class org.deeplearning4j.ui.exception.GenericExceptionMapper: Existing previous registration found for the type.
+
+INFO  [2016-11-14 21:50:54,967] io.dropwizard.server.ServerFactory: Starting UiServer
+WARN  [2016-11-14 21:50:55,010] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class io.dropwizard.jersey.jackson.JsonProcessingExceptionMapper: Existing previous registration found for the type.
+
+WARN  [2016-11-14 21:50:55,051] org.eclipse.jetty.server.ServerConnector: Acceptors should be <= availableProcessors: ServerConnector@17557055{HTTP/1.1}{0.0.0.0:0}
+INFO  [2016-11-14 21:50:55,073] org.eclipse.jetty.setuid.SetUIDListener: Opened application@17557055{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-11-14 21:50:55,074] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@2abc231b{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-11-14 21:50:55,081] org.eclipse.jetty.server.Server: jetty-9.2.9.v20150224
+INFO  [2016-11-14 21:50:57,354] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /flow (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/action/{id} (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/info (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/state (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/action/{id} (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/info (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/state (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /rl (org.deeplearning4j.ui.rl.RlDropwiz)
+    GET     /rl/state (org.deeplearning4j.ui.rl.RlDropwiz)
+    POST    /rl/state (org.deeplearning4j.ui.rl.RlDropwiz)
+    GET     / (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /events (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /sessions (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /whatsup (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /api/coords (org.deeplearning4j.ui.api.ApiResource)
+    GET     /api/{path} (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/coords (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/update (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/upload (org.deeplearning4j.ui.api.ApiResource)
+    GET     /weights (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /weights/data (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /weights/updated (org.deeplearning4j.ui.weights.WeightDropwiz)
+    POST    /weights/update (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /activations (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    GET     /activations/img (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    POST    /activations/update (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    GET     /tsne (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    GET     /tsne/{path} (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/update (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/upload (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/vocab (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    GET     /filters (org.deeplearning4j.ui.renders.RendersDropwiz)
+    GET     /filters/img (org.deeplearning4j.ui.renders.RendersDropwiz)
+    POST    /filters/update (org.deeplearning4j.ui.renders.RendersDropwiz)
+    GET     /word2vec (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    GET     /word2vec/{path} (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/upload (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/vocab (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/words (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+
+INFO  [2016-11-14 21:50:57,371] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@60a4a7f9{/,null,AVAILABLE}
+INFO  [2016-11-14 21:50:57,377] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2016-11-14 21:50:57,378] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2016-11-14 21:50:57,388] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@24397dd5{/,null,AVAILABLE}
+INFO  [2016-11-14 21:50:57,424] org.eclipse.jetty.server.ServerConnector: Started application@17557055{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-11-14 21:50:57,431] org.eclipse.jetty.server.ServerConnector: Started admin@2abc231b{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-11-14 21:50:57,431] org.eclipse.jetty.server.Server: Started @19521ms
+UI Histogram URL: http://localhost:8080/weights?sid=6922fa39-57c4-44fa-879c-2fac27c07adf
+INFO  [2016-11-14 21:50:57,441] org.deeplearning4j.examples.feedforward.LogAnalysisMLP: Train model....
+INFO  [2016-11-14 21:50:57,502] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 0 is 2.9966750390709405
+INFO  [2016-11-14 21:50:57,529] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 5 is 2.9959614637477006
+INFO  [2016-11-14 21:50:57,577] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 10 is 2.995248366013164
+INFO  [2016-11-14 21:50:57,610] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 15 is 2.9945350308298186
+INFO  [2016-11-14 21:50:57,628] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 20 is 2.9938216966501594
+INFO  [2016-11-14 21:50:57,649] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 25 is 2.9931083633633775
+INFO  [2016-11-14 21:50:57,664] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 30 is 2.992395269556173
+INFO  [2016-11-14 21:50:57,681] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 35 is 2.991682176640408
+INFO  [2016-11-14 21:50:57,697] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 40 is 2.9909693229153245
+INFO  [2016-11-14 21:50:57,715] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 45 is 2.990256231839309
+INFO  [2016-11-14 21:50:57,728] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 50 is 2.989543141645135
+INFO  [2016-11-14 21:50:57,739] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 55 is 2.9888302908668596
+INFO  [2016-11-14 21:50:57,751] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 60 is 2.988117440925698
+INFO  [2016-11-14 21:50:57,762] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 65 is 2.9874048304178884
+INFO  [2016-11-14 21:50:57,776] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 70 is 2.98669222083013
+INFO  [2016-11-14 21:50:57,792] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 75 is 2.985979373835803
+INFO  [2016-11-14 21:50:57,812] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 80 is 2.985266766027174
+INFO  [2016-11-14 21:50:57,831] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 85 is 2.9845543976236972
+INFO  [2016-11-14 21:50:57,878] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 90 is 2.98399175704687
+INFO  [2016-11-14 21:50:57,917] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 95 is 2.983279390527771
+INFO  [2016-11-14 21:50:57,933] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 100 is 2.9825667864728156
+INFO  [2016-11-14 21:50:57,947] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 105 is 2.98185466026264
+INFO  [2016-11-14 21:50:57,960] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 110 is 2.981142296515223
+INFO  [2016-11-14 21:50:57,976] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 115 is 2.980879829482104
+INFO  [2016-11-14 21:50:57,990] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 120 is 2.980167467537389
+INFO  [2016-11-14 21:50:58,009] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 125 is 2.9974466494717693
+INFO  [2016-11-14 21:50:58,056] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 130 is 2.9788929502320394
+INFO  [2016-11-14 21:50:58,083] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 135 is 2.978181067944041
+INFO  [2016-11-14 21:50:58,121] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 140 is 2.977468947964602
+INFO  [2016-11-14 21:50:58,142] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 145 is 2.9767570674219637
+INFO  [2016-11-14 21:50:58,159] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 150 is 2.9760451880395657
+INFO  [2016-11-14 21:50:58,179] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 155 is 2.9753333092320293
+INFO  [2016-11-14 21:50:58,198] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 160 is 2.9746216699588555
+INFO  [2016-11-14 21:50:58,211] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 165 is 2.973909793066777
+INFO  [2016-11-14 21:50:58,226] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 170 is 2.973198155708599
+INFO  [2016-11-14 21:50:58,241] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 175 is 2.9724865190467256
+INFO  [2016-11-14 21:50:58,263] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 180 is 2.9717751218429913
+INFO  [2016-11-14 21:50:58,290] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 185 is 2.9975949449263766
+INFO  [2016-11-14 21:50:58,309] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 190 is 2.996881403696298
+INFO  [2016-11-14 21:50:58,337] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 195 is 2.9961681017976627
+INFO  [2016-11-14 21:50:58,352] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 200 is 2.9956050046051397
+INFO  [2016-11-14 21:50:58,364] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 205 is 2.994891466141626
+INFO  [2016-11-14 21:50:58,375] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 210 is 2.9941784053330815
+INFO  [2016-11-14 21:50:58,384] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 215 is 2.9934651069572165
+INFO  [2016-11-14 21:50:58,396] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 220 is 2.992752048106286
+INFO  [2016-11-14 21:50:58,407] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 225 is 2.992038990006027
+INFO  [2016-11-14 21:50:58,418] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 230 is 2.9913259330030137
+INFO  [2016-11-14 21:50:58,429] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 235 is 2.990612876665754
+INFO  [2016-11-14 21:50:58,440] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 240 is 2.989899821382828
+INFO  [2016-11-14 21:50:58,451] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 245 is 2.989187005315661
+INFO  [2016-11-14 21:50:58,463] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 250 is 2.970954239310851
+INFO  [2016-11-14 21:50:58,487] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 255 is 2.970242617235312
+INFO  [2016-11-14 21:50:58,503] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 260 is 2.9695314728497078
+INFO  [2016-11-14 21:50:58,515] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 265 is 2.968820090906355
+INFO  [2016-11-14 21:50:58,528] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 270 is 2.9681087098806214
+INFO  [2016-11-14 21:50:58,550] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 275 is 2.967397568133001
+INFO  [2016-11-14 21:50:58,620] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 280 is 2.966686427408885
+INFO  [2016-11-14 21:50:58,630] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 285 is 2.9659752873622875
+INFO  [2016-11-14 21:50:58,640] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 290 is 2.9652643868297788
+INFO  [2016-11-14 21:50:58,650] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 295 is 2.964553487096841
+INFO  [2016-11-14 21:50:58,659] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 300 is 2.9638423497929693
+INFO  [2016-11-14 21:50:58,670] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 305 is 2.9631314518205523
+INFO  [2016-11-14 21:50:58,681] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 310 is 2.962420793114265
+INFO  [2016-11-14 21:50:58,690] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 315 is 2.9617098969580833
+INFO  [2016-11-14 21:50:58,706] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 320 is 2.9609992400741327
+INFO  [2016-11-14 21:50:58,729] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 325 is 2.9602885842156783
+INFO  [2016-11-14 21:50:58,755] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 330 is 2.959578167390005
+INFO  [2016-11-14 21:50:58,772] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 335 is 2.9588675132269464
+INFO  [2016-11-14 21:50:58,784] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 340 is 2.958157098161289
+INFO  [2016-11-14 21:50:58,796] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 345 is 2.957596411042984
+INFO  [2016-11-14 21:50:58,809] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 350 is 2.9568859978907405
+INFO  [2016-11-14 21:50:58,817] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 355 is 2.956175585595044
+INFO  [2016-11-14 21:50:58,828] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 360 is 2.955465412681407
+INFO  [2016-11-14 21:50:58,839] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 365 is 2.954755240500652
+INFO  [2016-11-14 21:50:58,848] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 370 is 2.954045069208055
+INFO  [2016-11-14 21:50:58,856] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 375 is 2.9533348989336936
+INFO  [2016-11-14 21:50:58,869] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 380 is 2.95262496782498
+INFO  [2016-11-14 21:50:58,881] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 385 is 2.998944771252861
+INFO  [2016-11-14 21:50:58,891] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 390 is 2.951354596731516
+INFO  [2016-11-14 21:50:58,903] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 395 is 2.998871024810031
+INFO  [2016-11-14 21:50:58,916] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 400 is 2.9500844675868803
+INFO  [2016-11-14 21:50:58,932] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 405 is 2.9493747791985414
+INFO  [2016-11-14 21:50:58,963] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 410 is 2.9488148187476853
+INFO  [2016-11-14 21:50:58,976] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 415 is 2.9481048938112457
+INFO  [2016-11-14 21:50:58,994] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 420 is 2.9475451733468163
+INFO  [2016-11-14 21:50:59,004] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 425 is 2.9469849769911733
+INFO  [2016-11-14 21:50:59,014] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 430 is 2.946425019958662
+INFO  [2016-11-14 21:50:59,022] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 435 is 2.9901911306708504
+INFO  [2016-11-14 21:50:59,031] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 440 is 2.9451558583547226
+INFO  [2016-11-14 21:50:59,038] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 445 is 2.9445961422470472
+INFO  [2016-11-14 21:50:59,047] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 450 is 2.9438867001651214
+INFO  [2016-11-14 21:50:59,056] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 455 is 2.943177497322318
+INFO  [2016-11-14 21:50:59,065] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 460 is 2.942468295371626
+INFO  [2016-11-14 21:50:59,075] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 465 is 2.9417590943771446
+INFO  [2016-11-14 21:50:59,083] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 470 is 2.941049894152296
+INFO  [2016-11-14 21:50:59,092] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 475 is 2.940340933179875
+INFO  [2016-11-14 21:50:59,100] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 480 is 3.000271592916866
+INFO  [2016-11-14 21:50:59,121] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 485 is 2.9997080690486113
+INFO  [2016-11-14 21:50:59,147] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 490 is 3.0003445067197387
+INFO  [2016-11-14 21:50:59,206] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 495 is 2.998430820092809
+INFO  [2016-11-14 21:50:59,226] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 500 is 2.9977173334237968
+INFO  [2016-11-14 21:50:59,243] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 505 is 2.9970040861083307
+INFO  [2016-11-14 21:50:59,260] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 510 is 3.0004903445463578
+INFO  [2016-11-14 21:50:59,305] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 515 is 2.9999265872809806
+INFO  [2016-11-14 21:50:59,317] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 520 is 2.9998132036444742
+INFO  [2016-11-14 21:50:59,328] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 525 is 2.999399651908825
+INFO  [2016-11-14 21:50:59,338] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 530 is 2.9989861010000514
+INFO  [2016-11-14 21:50:59,346] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 535 is 3.0006725416895064
+INFO  [2016-11-14 21:50:59,354] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 540 is 2.999958823433193
+INFO  [2016-11-14 21:50:59,363] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 545 is 2.994897066479312
+INFO  [2016-11-14 21:50:59,370] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 550 is 2.999431896464415
+INFO  [2016-11-14 21:50:59,384] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 555 is 2.9987181807857963
+INFO  [2016-11-14 21:50:59,394] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 560 is 2.998005181177667
+INFO  [2016-11-14 21:50:59,408] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 565 is 2.997291705553797
+INFO  [2016-11-14 21:50:59,432] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 570 is 2.994330420501851
+INFO  [2016-11-14 21:50:59,460] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 575 is 2.997065194494886
+INFO  [2016-11-14 21:50:59,471] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 580 is 2.9966516520600197
+INFO  [2016-11-14 21:50:59,514] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 585 is 2.9927908161543084
+INFO  [2016-11-14 21:50:59,521] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 590 is 2.9986746252487255
+INFO  [2016-11-14 21:50:59,529] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 595 is 2.9921146542945265
+INFO  [2016-11-14 21:50:59,555] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 600 is 2.998597849381063
+INFO  [2016-11-14 21:50:59,565] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 605 is 2.9908386345459292
+INFO  [2016-11-14 21:50:59,576] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 610 is 2.9901256434544896
+INFO  [2016-11-14 21:50:59,609] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 615 is 2.9964593526382526
+INFO  [2016-11-14 21:50:59,621] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 620 is 2.9890000709441122
+INFO  [2016-11-14 21:50:59,629] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 625 is 2.9882873206533866
+INFO  [2016-11-14 21:50:59,639] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 630 is 2.9877245364478764
+INFO  [2016-11-14 21:50:59,649] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 635 is 2.9870120262439768
+INFO  [2016-11-14 21:50:59,660] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 640 is 2.986299278386659
+INFO  [2016-11-14 21:50:59,669] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 645 is 2.998629696597084
+INFO  [2016-11-14 21:50:59,675] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 650 is 2.985024227503332
+INFO  [2016-11-14 21:50:59,681] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 655 is 2.9846116511683425
+INFO  [2016-11-14 21:50:59,687] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 660 is 2.9838991451280465
+INFO  [2016-11-14 21:50:59,692] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 665 is 2.9831868783153883
+INFO  [2016-11-14 21:50:59,698] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 670 is 2.982474373775122
+INFO  [2016-11-14 21:50:59,706] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 675 is 2.9817623471662427
+INFO  [2016-11-14 21:50:59,713] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 680 is 2.981050082717174
+INFO  [2016-11-14 21:50:59,720] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 685 is 2.9981758204852653
+INFO  [2016-11-14 21:50:59,728] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 690 is 2.9803751446269247
+INFO  [2016-11-14 21:50:59,737] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 695 is 2.9964520805129897
+INFO  [2016-11-14 21:50:59,746] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 700 is 2.9798501749295476
+INFO  [2016-11-14 21:50:59,755] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 705 is 2.9957761936397134
+INFO  [2016-11-14 21:50:59,762] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 710 is 2.995062980543197
+INFO  [2016-11-14 21:50:59,768] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 715 is 2.99434976827452
+INFO  [2016-11-14 21:50:59,775] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 720 is 2.9936365567856624
+INFO  [2016-11-14 21:50:59,781] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 725 is 2.992923584651724
+INFO  [2016-11-14 21:50:59,810] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 730 is 2.9793252810708677
+INFO  [2016-11-14 21:50:59,834] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 735 is 2.992247707482852
+INFO  [2016-11-14 21:50:59,853] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 740 is 3.0015778819563073
+INFO  [2016-11-14 21:50:59,864] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 745 is 2.9779388207695208
+INFO  [2016-11-14 21:50:59,879] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 750 is 2.9776764637317976
+INFO  [2016-11-14 21:50:59,889] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 755 is 2.976964688541987
+INFO  [2016-11-14 21:50:59,899] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 760 is 2.991234422351148
+INFO  [2016-11-14 21:50:59,909] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 765 is 2.9762904899796334
+INFO  [2016-11-14 21:50:59,919] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 770 is 2.975878409337958
+INFO  [2016-11-14 21:50:59,929] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 775 is 2.9751666373937935
+INFO  [2016-11-14 21:50:59,939] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 780 is 2.9747547967555743
+INFO  [2016-11-14 21:50:59,948] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 785 is 2.974043026364252
+INFO  [2016-11-14 21:50:59,954] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 790 is 2.998353525031374
+INFO  [2016-11-14 21:50:59,965] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 795 is 2.9733690759388294
+INFO  [2016-11-14 21:50:59,974] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 800 is 3.0011223406410834
+INFO  [2016-11-14 21:50:59,984] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 805 is 2.9725451635435536
+INFO  [2016-11-14 21:50:59,993] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 810 is 2.9982022536134116
+INFO  [2016-11-14 21:51:00,001] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 815 is 2.971422039001266
+INFO  [2016-11-14 21:51:00,009] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 820 is 2.9708604779920185
+INFO  [2016-11-14 21:51:00,018] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 825 is 2.9702989177029258
+INFO  [2016-11-14 21:51:00,028] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 830 is 2.990560360050311
+INFO  [2016-11-14 21:51:00,035] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 835 is 2.9690263110306283
+INFO  [2016-11-14 21:51:00,043] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 840 is 2.968314787902329
+INFO  [2016-11-14 21:51:00,057] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 845 is 2.9676039807946886
+INFO  [2016-11-14 21:51:00,066] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 850 is 2.966892697715557
+INFO  [2016-11-14 21:51:00,076] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 855 is 2.966181653788129
+INFO  [2016-11-14 21:51:00,084] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 860 is 2.9654708490496975
+INFO  [2016-11-14 21:51:00,091] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 865 is 2.9981660643164116
+INFO  [2016-11-14 21:51:00,099] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 870 is 2.9641987303880186
+INFO  [2016-11-14 21:51:00,110] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 875 is 3.001384322828687
+INFO  [2016-11-14 21:51:00,118] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 880 is 2.963525760917661
+INFO  [2016-11-14 21:51:00,127] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 885 is 2.9628149600420435
+INFO  [2016-11-14 21:51:00,134] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 890 is 3.0008962934205625
+INFO  [2016-11-14 21:51:00,141] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 895 is 2.962142233667906
+INFO  [2016-11-14 21:51:00,150] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 900 is 2.961431435271613
+INFO  [2016-11-14 21:51:00,161] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 905 is 2.960720876167786
+INFO  [2016-11-14 21:51:00,167] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 910 is 2.9601602830538827
+INFO  [2016-11-14 21:51:00,173] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 915 is 2.95944972534864
+INFO  [2016-11-14 21:51:00,181] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 920 is 2.958739168538869
+INFO  [2016-11-14 21:51:00,188] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 925 is 2.958028850950135
+INFO  [2016-11-14 21:51:00,195] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 930 is 2.9907193081338392
+INFO  [2016-11-14 21:51:00,201] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 935 is 2.9576560677464414
+INFO  [2016-11-14 21:51:00,207] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 940 is 2.990645503360202
+INFO  [2016-11-14 21:51:00,213] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 945 is 2.9568345837777152
+INFO  [2016-11-14 21:51:00,218] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 950 is 2.956124270144469
+INFO  [2016-11-14 21:51:00,225] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 955 is 2.9554139571400264
+INFO  [2016-11-14 21:51:00,233] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 960 is 2.9547038834677797
+INFO  [2016-11-14 21:51:00,241] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 965 is 2.990086568663675
+INFO  [2016-11-14 21:51:00,249] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 970 is 2.9893738738886695
+INFO  [2016-11-14 21:51:00,256] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 975 is 2.988660941491769
+INFO  [2016-11-14 21:51:00,302] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 980 is 2.9879484867045005
+INFO  [2016-11-14 21:51:00,326] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 985 is 3.0004093743627713
+INFO  [2016-11-14 21:51:00,348] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 990 is 2.9983543861153574
+INFO  [2016-11-14 21:51:00,355] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 995 is 2.9543746835191786
+INFO  [2016-11-14 21:51:00,363] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1000 is 2.9867475780458217
+INFO  [2016-11-14 21:51:00,369] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1005 is 2.9538529104679654
+INFO  [2016-11-14 21:51:00,376] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1010 is 2.9532925712956968
+INFO  [2016-11-14 21:51:00,475] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1015 is 2.952732233006711
+INFO  [2016-11-14 21:51:00,483] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1020 is 2.9524715875714165
+INFO  [2016-11-14 21:51:00,496] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1025 is 3.003853837547833
+INFO  [2016-11-14 21:51:00,508] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1030 is 2.951201426198345
+INFO  [2016-11-14 21:51:00,517] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1035 is 2.9504916024596564
+INFO  [2016-11-14 21:51:00,525] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1040 is 2.949781779562996
+INFO  [2016-11-14 21:51:00,534] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1045 is 2.949371411090559
+INFO  [2016-11-14 21:51:00,543] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1050 is 3.000449204537955
+INFO  [2016-11-14 21:51:00,550] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1055 is 3.000035976510102
+INFO  [2016-11-14 21:51:00,557] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1060 is 2.999322580269756
+INFO  [2016-11-14 21:51:00,565] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1065 is 2.948477863953016
+INFO  [2016-11-14 21:51:00,571] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1070 is 2.998346878195938
+INFO  [2016-11-14 21:51:00,576] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1075 is 2.9976334842875825
+INFO  [2016-11-14 21:51:00,584] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1080 is 2.9476959529414404
+INFO  [2016-11-14 21:51:00,591] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1085 is 2.947136102119776
+INFO  [2016-11-14 21:51:00,598] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1090 is 2.946426525152608
+INFO  [2016-11-14 21:51:00,606] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1095 is 2.946016402770997
+INFO  [2016-11-14 21:51:00,614] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1100 is 2.9453068273750502
+INFO  [2016-11-14 21:51:00,621] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1105 is 2.9445977295206682
+INFO  [2016-11-14 21:51:00,629] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1110 is 2.9438883939986287
+INFO  [2016-11-14 21:51:00,636] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1115 is 2.943179297682208
+INFO  [2016-11-14 21:51:00,641] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1120 is 2.9424702023194453
+INFO  [2016-11-14 21:51:00,647] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1125 is 2.9417611074549637
+INFO  [2016-11-14 21:51:00,652] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1130 is 2.9410520134136786
+INFO  [2016-11-14 21:51:00,657] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1135 is 2.940342920051759
+INFO  [2016-11-14 21:51:00,665] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1140 is 2.9396340659989155
+INFO  [2016-11-14 21:51:00,670] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1145 is 2.997734254540714
+INFO  [2016-11-14 21:51:00,676] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1150 is 2.997761400140568
+INFO  [2016-11-14 21:51:00,684] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1155 is 2.938255427238808
+INFO  [2016-11-14 21:51:00,692] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1160 is 3.0047279248693988
+INFO  [2016-11-14 21:51:00,696] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1165 is 2.9374361563213744
+INFO  [2016-11-14 21:51:00,704] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1170 is 2.93702628366492
+INFO  [2016-11-14 21:51:00,710] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1175 is 2.9366168884752586
+INFO  [2016-11-14 21:51:00,718] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1180 is 2.9359082788165556
+INFO  [2016-11-14 21:51:00,728] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1185 is 2.935648135208963
+INFO  [2016-11-14 21:51:00,741] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1190 is 2.9970265858883876
+INFO  [2016-11-14 21:51:00,746] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1195 is 2.9963132101111727
+INFO  [2016-11-14 21:51:00,754] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1200 is 2.935316889358789
+INFO  [2016-11-14 21:51:00,761] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1205 is 2.9350569870704755
+INFO  [2016-11-14 21:51:00,768] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1210 is 2.934348620272157
+INFO  [2016-11-14 21:51:00,778] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1215 is 2.997053635817898
+INFO  [2016-11-14 21:51:00,785] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1220 is 2.9870874769562277
+INFO  [2016-11-14 21:51:00,794] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1225 is 2.9968280449658393
+INFO  [2016-11-14 21:51:00,800] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1230 is 3.0046510131401596
+INFO  [2016-11-14 21:51:00,805] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1235 is 2.9864503557384796
+INFO  [2016-11-14 21:51:00,813] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1240 is 2.9961899721849203
+INFO  [2016-11-14 21:51:00,819] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1245 is 2.9453753235700417
+INFO  [2016-11-14 21:51:00,826] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1250 is 2.9336172152021653
+INFO  [2016-11-14 21:51:00,836] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1255 is 2.933058581821177
+INFO  [2016-11-14 21:51:00,845] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1260 is 2.932649199352887
+INFO  [2016-11-14 21:51:00,853] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1265 is 2.9319408405776812
+INFO  [2016-11-14 21:51:00,860] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1270 is 2.9312327209902564
+INFO  [2016-11-14 21:51:00,868] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1275 is 2.930524363694174
+INFO  [2016-11-14 21:51:00,875] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1280 is 2.929816483966153
+INFO  [2016-11-14 21:51:00,881] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1285 is 2.9294078202930813
+INFO  [2016-11-14 21:51:00,890] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1290 is 2.928849430459585
+INFO  [2016-11-14 21:51:00,897] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1295 is 2.995266873356464
+INFO  [2016-11-14 21:51:00,902] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1300 is 2.9443239635865197
+INFO  [2016-11-14 21:51:00,907] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1305 is 2.943614657001997
+INFO  [2016-11-14 21:51:00,914] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1310 is 3.006308242267103
+INFO  [2016-11-14 21:51:00,920] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1315 is 2.9949680911439995
+INFO  [2016-11-14 21:51:00,924] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1320 is 2.943132783468396
+INFO  [2016-11-14 21:51:00,931] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1325 is 3.006268875870956
+INFO  [2016-11-14 21:51:00,936] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1330 is 3.0064550731848882
+INFO  [2016-11-14 21:51:00,944] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1335 is 3.0061911368352723
+INFO  [2016-11-14 21:51:00,950] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1340 is 3.0048772057360718
+INFO  [2016-11-14 21:51:00,958] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1345 is 3.0043133403516804
+INFO  [2016-11-14 21:51:00,966] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1350 is 3.0055492974253406
+INFO  [2016-11-14 21:51:00,973] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1355 is 3.0034855421619624
+INFO  [2016-11-14 21:51:00,981] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1360 is 3.005171635010441
+INFO  [2016-11-14 21:51:00,986] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1365 is 3.0026582236845463
+INFO  [2016-11-14 21:51:00,995] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1370 is 3.001944396551642
+INFO  [2016-11-14 21:51:01,002] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1375 is 3.00453028326735
+INFO  [2016-11-14 21:51:01,009] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1380 is 3.00426635344149
+INFO  [2016-11-14 21:51:01,018] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1385 is 3.0007036647942553
+INFO  [2016-11-14 21:51:01,029] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1390 is 3.000290009546842
+INFO  [2016-11-14 21:51:01,038] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1395 is 2.9997263896512356
+INFO  [2016-11-14 21:51:01,048] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1400 is 3.0035117638706215
+INFO  [2016-11-14 21:51:01,055] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1405 is 2.9988993210340893
+INFO  [2016-11-14 21:51:01,062] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1410 is 2.998335941761205
+INFO  [2016-11-14 21:51:01,068] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1415 is 2.9979225284907867
+INFO  [2016-11-14 21:51:01,072] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1420 is 2.997509354252275
+INFO  [2016-11-14 21:51:01,078] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1425 is 3.002493739000135
+INFO  [2016-11-14 21:51:01,086] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1430 is 2.996532565922364
+INFO  [2016-11-14 21:51:01,092] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1435 is 2.996119155424697
+INFO  [2016-11-14 21:51:01,098] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1440 is 2.9955560188394235
+INFO  [2016-11-14 21:51:01,103] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1445 is 3.0014397212651045
+INFO  [2016-11-14 21:51:01,110] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1450 is 2.9945794745430643
+INFO  [2016-11-14 21:51:01,115] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1455 is 2.9941665437268736
+INFO  [2016-11-14 21:51:01,123] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1460 is 3.007396163093619
+INFO  [2016-11-14 21:51:01,132] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1465 is 3.0068320763946437
+INFO  [2016-11-14 21:51:01,138] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1470 is 2.9936763899005068
+INFO  [2016-11-14 21:51:01,146] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1475 is 2.993113496481152
+INFO  [2016-11-14 21:51:01,152] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1480 is 3.0000455304946083
+INFO  [2016-11-14 21:51:01,161] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1485 is 2.9921374390178745
+INFO  [2016-11-14 21:51:01,167] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1490 is 2.991724513107239
+INFO  [2016-11-14 21:51:01,175] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1495 is 2.9914613148812634
+INFO  [2016-11-14 21:51:01,181] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1500 is 2.990898425026432
+INFO  [2016-11-14 21:51:01,185] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1505 is 2.9904855012229916
+INFO  [2016-11-14 21:51:01,191] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1510 is 2.9900725781630557
+INFO  [2016-11-14 21:51:01,196] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1515 is 2.9988030083458854
+INFO  [2016-11-14 21:51:01,202] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1520 is 2.989097007247639
+INFO  [2016-11-14 21:51:01,207] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1525 is 2.9886840861575332
+INFO  [2016-11-14 21:51:01,212] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1530 is 2.9881216774753305
+INFO  [2016-11-14 21:51:01,217] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1535 is 2.997750471522707
+INFO  [2016-11-14 21:51:01,222] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1540 is 2.987146112026804
+INFO  [2016-11-14 21:51:01,226] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1545 is 2.9867336706098686
+INFO  [2016-11-14 21:51:01,231] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1550 is 2.986320991476312
+INFO  [2016-11-14 21:51:01,235] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1555 is 2.996998353316801
+INFO  [2016-11-14 21:51:01,239] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1560 is 2.9967354024684223
+INFO  [2016-11-14 21:51:01,244] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1565 is 2.984933469878593
+INFO  [2016-11-14 21:51:01,248] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1570 is 2.9843710666446306
+INFO  [2016-11-14 21:51:01,253] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1575 is 2.996096757670173
+INFO  [2016-11-14 21:51:01,258] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1580 is 2.9835459543786076
+INFO  [2016-11-14 21:51:01,263] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1585 is 2.9829835532343454
+INFO  [2016-11-14 21:51:01,268] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1590 is 2.995458357487531
+INFO  [2016-11-14 21:51:01,272] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1595 is 2.9820091950765155
+INFO  [2016-11-14 21:51:01,278] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1600 is 2.9815967613329093
+INFO  [2016-11-14 21:51:01,284] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1605 is 2.981184566617809
+INFO  [2016-11-14 21:51:01,288] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1610 is 2.994707223233195
+INFO  [2016-11-14 21:51:01,293] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1615 is 2.994444279961132
+INFO  [2016-11-14 21:51:01,301] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1620 is 2.9797980212651236
+INFO  [2016-11-14 21:51:01,307] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1625 is 2.9792358640006102
+INFO  [2016-11-14 21:51:01,312] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1630 is 2.9938063730355373
+INFO  [2016-11-14 21:51:01,318] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1635 is 2.978411720486341
+INFO  [2016-11-14 21:51:01,323] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1640 is 2.993431173084711
+INFO  [2016-11-14 21:51:01,328] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1645 is 2.9775878181475894
+INFO  [2016-11-14 21:51:01,334] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1650 is 2.9768759374725375
+INFO  [2016-11-14 21:51:01,339] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1655 is 2.9927937532015543
+INFO  [2016-11-14 21:51:01,345] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1660 is 2.9925310544892856
+INFO  [2016-11-14 21:51:01,350] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1665 is 2.9756400909220977
+INFO  [2016-11-14 21:51:01,360] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1670 is 2.9752283819207372
+INFO  [2016-11-14 21:51:01,368] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1675 is 2.974666708293863
+INFO  [2016-11-14 21:51:01,376] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1680 is 2.991781627214422
+INFO  [2016-11-14 21:51:01,384] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1685 is 2.973843055158984
+INFO  [2016-11-14 21:51:01,392] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1690 is 2.973281621972152
+INFO  [2016-11-14 21:51:01,401] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1695 is 2.972869916232656
+INFO  [2016-11-14 21:51:01,409] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1700 is 2.9724582112801796
+INFO  [2016-11-14 21:51:01,415] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1705 is 2.990769756377612
+INFO  [2016-11-14 21:51:01,421] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1710 is 2.9714850764791176
+INFO  [2016-11-14 21:51:01,426] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1715 is 2.971223100358452
+INFO  [2016-11-14 21:51:01,431] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1720 is 2.9901326012430904
+INFO  [2016-11-14 21:51:01,435] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1725 is 2.989870388093501
+INFO  [2016-11-14 21:51:01,442] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1730 is 2.969838745345888
+INFO  [2016-11-14 21:51:01,446] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1735 is 2.969277318239197
+INFO  [2016-11-14 21:51:01,451] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1740 is 2.9892337177667754
+INFO  [2016-11-14 21:51:01,455] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1745 is 2.9686043616324227
+INFO  [2016-11-14 21:51:01,461] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1750 is 2.9680429365214005
+INFO  [2016-11-14 21:51:01,465] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1755 is 2.988597291876311
+INFO  [2016-11-14 21:51:01,471] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1760 is 2.9670705302740585
+INFO  [2016-11-14 21:51:01,475] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1765 is 2.966659310803131
+INFO  [2016-11-14 21:51:01,481] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1770 is 2.96624809192669
+INFO  [2016-11-14 21:51:01,486] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1775 is 2.9878493459171462
+INFO  [2016-11-14 21:51:01,492] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1780 is 2.987587378400299
+INFO  [2016-11-14 21:51:01,496] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1785 is 2.964864712579543
+INFO  [2016-11-14 21:51:01,501] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1790 is 2.9643037694702534
+INFO  [2016-11-14 21:51:01,510] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1795 is 2.9869514453152934
+INFO  [2016-11-14 21:51:01,516] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1800 is 2.963481815933118
+INFO  [2016-11-14 21:51:01,523] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1805 is 2.98657795840032
+INFO  [2016-11-14 21:51:01,530] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1810 is 2.962659865078571
+INFO  [2016-11-14 21:51:01,543] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1815 is 2.9619491983755184
+INFO  [2016-11-14 21:51:01,558] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1820 is 2.9859425119029757
+INFO  [2016-11-14 21:51:01,575] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1825 is 2.985380142968191
+INFO  [2016-11-14 21:51:01,583] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1830 is 2.9849679783697582
+INFO  [2016-11-14 21:51:01,591] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1835 is 3.0097087360289154
+INFO  [2016-11-14 21:51:01,596] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1840 is 2.984442151223772
+INFO  [2016-11-14 21:51:01,604] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1845 is 3.0085832875292624
+INFO  [2016-11-14 21:51:01,613] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1850 is 2.983766838168539
+INFO  [2016-11-14 21:51:01,618] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1855 is 3.0082064758918614
+INFO  [2016-11-14 21:51:01,624] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1860 is 2.9829418008029194
+INFO  [2016-11-14 21:51:01,630] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1865 is 2.9614334112804985
+INFO  [2016-11-14 21:51:01,636] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1870 is 2.9607229902475747
+INFO  [2016-11-14 21:51:01,643] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1875 is 2.9604617504651793
+INFO  [2016-11-14 21:51:01,649] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1880 is 2.9820439447109366
+INFO  [2016-11-14 21:51:01,656] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1885 is 2.9814815835503263
+INFO  [2016-11-14 21:51:01,661] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1890 is 3.0093616058629955
+INFO  [2016-11-14 21:51:01,665] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1895 is 2.9806567937623782
+INFO  [2016-11-14 21:51:01,669] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1900 is 2.9799449460977327
+INFO  [2016-11-14 21:51:01,672] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1905 is 2.960393024574403
+INFO  [2016-11-14 21:51:01,676] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1910 is 2.979421521293324
+INFO  [2016-11-14 21:51:01,680] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1915 is 2.9791602867325464
+INFO  [2016-11-14 21:51:01,684] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1920 is 2.95901112854434
+INFO  [2016-11-14 21:51:01,688] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1925 is 2.958450679904876
+INFO  [2016-11-14 21:51:01,691] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1930 is 2.9785263136031404
+INFO  [2016-11-14 21:51:01,695] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1935 is 2.957629715048423
+INFO  [2016-11-14 21:51:01,699] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1940 is 2.9781538153293368
+INFO  [2016-11-14 21:51:01,703] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1945 is 2.9568087528422717
+INFO  [2016-11-14 21:51:01,708] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1950 is 2.95609858054321
+INFO  [2016-11-14 21:51:01,714] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1955 is 2.977520090284979
+INFO  [2016-11-14 21:51:01,719] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1960 is 2.9772588614220328
+INFO  [2016-11-14 21:51:01,723] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1965 is 2.954867620721398
+INFO  [2016-11-14 21:51:01,727] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1970 is 2.954457143071266
+INFO  [2016-11-14 21:51:01,731] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1975 is 2.9538971776731016
+INFO  [2016-11-14 21:51:01,735] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1980 is 2.976514598228748
+INFO  [2016-11-14 21:51:01,739] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1985 is 2.9530767024899442
+INFO  [2016-11-14 21:51:01,744] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1990 is 2.952516500571118
+INFO  [2016-11-14 21:51:01,748] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 1995 is 2.9521062644705696
+INFO  [2016-11-14 21:51:01,752] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2000 is 2.951696505947593
+INFO  [2016-11-14 21:51:01,767] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2005 is 2.975509837229466
+INFO  [2016-11-14 21:51:01,795] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2010 is 2.950726548710926
+INFO  [2016-11-14 21:51:01,806] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2015 is 2.9503163151515577
+INFO  [2016-11-14 21:51:01,813] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2020 is 2.9497565938876535
+INFO  [2016-11-14 21:51:01,819] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2025 is 2.9744659047060757
+INFO  [2016-11-14 21:51:01,827] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2030 is 2.9487868799891874
+INFO  [2016-11-14 21:51:01,832] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2035 is 2.948377125793163
+INFO  [2016-11-14 21:51:01,837] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2040 is 3.0082436421834324
+INFO  [2016-11-14 21:51:01,843] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2045 is 2.9477066310676485
+INFO  [2016-11-14 21:51:01,849] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2050 is 2.973611375781237
+INFO  [2016-11-14 21:51:01,854] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2055 is 2.9468871271579617
+INFO  [2016-11-14 21:51:01,860] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2060 is 2.9461776840326785
+INFO  [2016-11-14 21:51:01,866] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2065 is 2.9729793613041267
+INFO  [2016-11-14 21:51:01,872] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2070 is 2.9455079107501208
+INFO  [2016-11-14 21:51:01,877] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2075 is 2.9726076125578684
+INFO  [2016-11-14 21:51:01,884] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2080 is 2.9723468755700835
+INFO  [2016-11-14 21:51:01,888] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2085 is 2.9441291767481808
+INFO  [2016-11-14 21:51:01,893] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2090 is 2.9435699411056517
+INFO  [2016-11-14 21:51:01,898] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2095 is 2.9717153491883543
+INFO  [2016-11-14 21:51:01,902] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2100 is 2.94275116365588
+INFO  [2016-11-14 21:51:01,906] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2105 is 2.9713440846912262
+INFO  [2016-11-14 21:51:01,910] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2110 is 2.941932150222296
+INFO  [2016-11-14 21:51:01,917] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2115 is 2.9412231907731945
+INFO  [2016-11-14 21:51:01,923] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2120 is 2.970712806014381
+INFO  [2016-11-14 21:51:01,928] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2125 is 2.9704523130380243
+INFO  [2016-11-14 21:51:01,933] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2130 is 2.9399953925299975
+INFO  [2016-11-14 21:51:01,938] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2135 is 2.939586127545317
+INFO  [2016-11-14 21:51:01,943] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2140 is 2.939027136486952
+INFO  [2016-11-14 21:51:01,949] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2145 is 2.9697112318330015
+INFO  [2016-11-14 21:51:01,953] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2150 is 2.938208609830966
+INFO  [2016-11-14 21:51:01,959] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2155 is 2.9376498589776543
+INFO  [2016-11-14 21:51:01,964] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2160 is 2.9372408355856034
+INFO  [2016-11-14 21:51:01,970] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2165 is 2.936831812766048
+INFO  [2016-11-14 21:51:01,980] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2170 is 2.9687101498552786
+INFO  [2016-11-14 21:51:01,992] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2175 is 2.9358640422483324
+INFO  [2016-11-14 21:51:02,002] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2180 is 2.935455021294144
+INFO  [2016-11-14 21:51:02,009] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2185 is 2.934896274111047
+INFO  [2016-11-14 21:51:02,014] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2190 is 2.9676691601638088
+INFO  [2016-11-14 21:51:02,020] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2195 is 2.9339289852866424
+INFO  [2016-11-14 21:51:02,025] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2200 is 2.9335199667558625
+INFO  [2016-11-14 21:51:02,030] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2205 is 2.933111187284613
+INFO  [2016-11-14 21:51:02,034] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2210 is 2.966929302807851
+INFO  [2016-11-14 21:51:02,039] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2215 is 2.966669059271674
+INFO  [2016-11-14 21:51:02,045] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2220 is 2.9317353640244233
+INFO  [2016-11-14 21:51:02,051] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2225 is 2.931176860174665
+INFO  [2016-11-14 21:51:02,058] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2230 is 2.9660394898581917
+INFO  [2016-11-14 21:51:02,062] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2235 is 2.930359784703366
+INFO  [2016-11-14 21:51:02,067] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2240 is 2.965669688814668
+INFO  [2016-11-14 21:51:02,071] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2245 is 2.92954271163518
+INFO  [2016-11-14 21:51:02,076] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2250 is 2.9288347222847135
+INFO  [2016-11-14 21:51:02,082] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2255 is 2.9650403668760714
+INFO  [2016-11-14 21:51:02,086] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2260 is 2.9647803671615276
+INFO  [2016-11-14 21:51:02,090] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2265 is 2.9276095958394177
+INFO  [2016-11-14 21:51:02,095] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2270 is 2.9272010626498735
+INFO  [2016-11-14 21:51:02,100] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2275 is 2.9266430415536804
+INFO  [2016-11-14 21:51:02,104] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2280 is 2.9640417357888977
+INFO  [2016-11-14 21:51:02,109] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2285 is 3.0098179825777334
+INFO  [2016-11-14 21:51:02,114] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2290 is 2.9255674126237583
+INFO  [2016-11-14 21:51:02,119] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2295 is 2.925009393910559
+INFO  [2016-11-14 21:51:02,124] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2300 is 2.963151956412051
+INFO  [2016-11-14 21:51:02,129] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2305 is 2.9240433236375134
+INFO  [2016-11-14 21:51:02,134] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2310 is 2.923635271992353
+INFO  [2016-11-14 21:51:02,137] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2315 is 2.9233764710053256
+INFO  [2016-11-14 21:51:02,143] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2320 is 2.9228186937694933
+INFO  [2016-11-14 21:51:02,147] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2325 is 2.922410882355254
+INFO  [2016-11-14 21:51:02,150] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2330 is 2.9220028330907137
+INFO  [2016-11-14 21:51:02,155] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2335 is 2.961935208021686
+INFO  [2016-11-14 21:51:02,159] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2340 is 2.9210372479568716
+INFO  [2016-11-14 21:51:02,163] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2345 is 2.9206294389208924
+INFO  [2016-11-14 21:51:02,168] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2350 is 2.9200719035301175
+INFO  [2016-11-14 21:51:02,171] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2355 is 2.9608971584581187
+INFO  [2016-11-14 21:51:02,177] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2360 is 2.9191065615523977
+INFO  [2016-11-14 21:51:02,182] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2365 is 2.9186989933091523
+INFO  [2016-11-14 21:51:02,186] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2370 is 2.918291187199054
+INFO  [2016-11-14 21:51:02,190] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2375 is 2.960160479442357
+INFO  [2016-11-14 21:51:02,195] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2380 is 2.9599009708937123
+INFO  [2016-11-14 21:51:02,199] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2385 is 2.916918522460615
+INFO  [2016-11-14 21:51:02,204] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2390 is 2.916361230156785
+INFO  [2016-11-14 21:51:02,208] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2395 is 2.9592736060642477
+INFO  [2016-11-14 21:51:02,213] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2400 is 2.915695112928194
+INFO  [2016-11-14 21:51:02,217] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2405 is 2.959054286333648
+INFO  [2016-11-14 21:51:02,221] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2410 is 2.958795019632277
+INFO  [2016-11-14 21:51:02,227] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2415 is 2.914323173881533
+INFO  [2016-11-14 21:51:02,231] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2420 is 2.9137658852077504
+INFO  [2016-11-14 21:51:02,235] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2425 is 2.9581679038211153
+INFO  [2016-11-14 21:51:02,240] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2430 is 2.9129512400735784
+INFO  [2016-11-14 21:51:02,245] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2435 is 2.9577998178047276
+INFO  [2016-11-14 21:51:02,249] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2440 is 2.912136835717982
+INFO  [2016-11-14 21:51:02,253] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2445 is 2.9114300614088724
+INFO  [2016-11-14 21:51:02,258] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2450 is 2.9571734258391813
+INFO  [2016-11-14 21:51:02,262] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2455 is 2.9569141644681873
+INFO  [2016-11-14 21:51:02,265] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2460 is 2.910208818621071
+INFO  [2016-11-14 21:51:02,270] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2465 is 2.9098017388420043
+INFO  [2016-11-14 21:51:02,273] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2470 is 2.909244932747608
+INFO  [2016-11-14 21:51:02,278] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2475 is 2.956179200847622
+INFO  [2016-11-14 21:51:02,282] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2480 is 2.9084310144303
+INFO  [2016-11-14 21:51:02,287] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2485 is 2.907874448537045
+INFO  [2016-11-14 21:51:02,291] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2490 is 2.9074673715816313
+INFO  [2016-11-14 21:51:02,296] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2495 is 2.907060533635071
+INFO  [2016-11-14 21:51:02,302] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2500 is 2.9551857054568944
+INFO  [2016-11-14 21:51:02,307] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2505 is 2.9060973710736637
+INFO  [2016-11-14 21:51:02,312] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2510 is 2.9056905349030564
+INFO  [2016-11-14 21:51:02,317] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2515 is 2.9051342107272897
+INFO  [2016-11-14 21:51:02,322] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2520 is 2.9541508318832976
+INFO  [2016-11-14 21:51:02,328] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2525 is 2.904171052738045
+INFO  [2016-11-14 21:51:02,335] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2530 is 2.903764457226653
+INFO  [2016-11-14 21:51:02,344] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2535 is 3.0111628759366766
+INFO  [2016-11-14 21:51:02,350] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2540 is 2.903099802592235
+INFO  [2016-11-14 21:51:02,354] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2545 is 2.953307327368066
+INFO  [2016-11-14 21:51:02,366] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2550 is 2.9022868540255473
+INFO  [2016-11-14 21:51:02,369] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2555 is 2.9015810460600173
+INFO  [2016-11-14 21:51:02,375] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2560 is 2.95268192691237
+INFO  [2016-11-14 21:51:02,380] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2565 is 2.900917350818008
+INFO  [2016-11-14 21:51:02,384] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2570 is 2.9523145871428444
+INFO  [2016-11-14 21:51:02,390] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2575 is 2.9520560546799883
+INFO  [2016-11-14 21:51:02,394] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2580 is 2.8995485679784694
+INFO  [2016-11-14 21:51:02,400] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2585 is 2.8989927286710433
+INFO  [2016-11-14 21:51:02,405] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2590 is 2.951431141161245
+INFO  [2016-11-14 21:51:02,410] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2595 is 2.8981802669918535
+INFO  [2016-11-14 21:51:02,415] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2600 is 2.9510647617873738
+INFO  [2016-11-14 21:51:02,419] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2605 is 2.897367807639013
+INFO  [2016-11-14 21:51:02,425] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2610 is 2.896662482622971
+INFO  [2016-11-14 21:51:02,428] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2615 is 2.9504403334684
+INFO  [2016-11-14 21:51:02,433] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2620 is 2.9501822828965105
+INFO  [2016-11-14 21:51:02,437] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2625 is 2.8954443954632754
+INFO  [2016-11-14 21:51:02,441] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2630 is 2.8950382880402405
+INFO  [2016-11-14 21:51:02,445] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2635 is 2.89448269274327
+INFO  [2016-11-14 21:51:02,449] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2640 is 2.94945025508555
+INFO  [2016-11-14 21:51:02,453] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2645 is 2.893670957520642
+INFO  [2016-11-14 21:51:02,458] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2650 is 2.8931156022676427
+INFO  [2016-11-14 21:51:02,461] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2655 is 2.8927097360892673
+INFO  [2016-11-14 21:51:02,465] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2660 is 2.8923038704583326
+INFO  [2016-11-14 21:51:02,470] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2665 is 2.9484606674627063
+INFO  [2016-11-14 21:51:02,474] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2670 is 2.8913428906976186
+INFO  [2016-11-14 21:51:02,477] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2675 is 2.8909370267084915
+INFO  [2016-11-14 21:51:02,481] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2680 is 2.8903819132376016
+INFO  [2016-11-14 21:51:02,486] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2685 is 2.9474287290808197
+INFO  [2016-11-14 21:51:02,490] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2690 is 2.889421176424742
+INFO  [2016-11-14 21:51:02,496] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2695 is 2.8890155529654438
+INFO  [2016-11-14 21:51:02,501] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2700 is 2.8886099301501833
+INFO  [2016-11-14 21:51:02,504] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2705 is 2.9466979221076834
+INFO  [2016-11-14 21:51:02,508] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2710 is 2.9464401199170727
+INFO  [2016-11-14 21:51:02,512] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2715 is 2.887244053397199
+INFO  [2016-11-14 21:51:02,516] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2720 is 2.886689182706361
+INFO  [2016-11-14 21:51:02,520] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2725 is 2.945817158671943
+INFO  [2016-11-14 21:51:02,524] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2730 is 2.8858784199513825
+INFO  [2016-11-14 21:51:02,528] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2735 is 2.945452239664872
+INFO  [2016-11-14 21:51:02,534] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2740 is 2.8850678977206687
+INFO  [2016-11-14 21:51:02,542] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2745 is 2.8843637798043296
+INFO  [2016-11-14 21:51:02,546] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2750 is 2.9448297635869265
+INFO  [2016-11-14 21:51:02,555] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2755 is 2.9445722046934617
+INFO  [2016-11-14 21:51:02,561] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2760 is 2.883148359854254
+INFO  [2016-11-14 21:51:02,567] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2765 is 2.8827432209472956
+INFO  [2016-11-14 21:51:02,571] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2770 is 2.8821885941646603
+INFO  [2016-11-14 21:51:02,578] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2775 is 2.9438428587961387
+INFO  [2016-11-14 21:51:02,583] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2780 is 3.0128048918751236
+INFO  [2016-11-14 21:51:02,591] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2785 is 2.881121955527802
+INFO  [2016-11-14 21:51:02,597] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2790 is 2.8805675693154833
+INFO  [2016-11-14 21:51:02,602] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2795 is 2.942961172152663
+INFO  [2016-11-14 21:51:02,607] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2800 is 2.879608287018559
+INFO  [2016-11-14 21:51:02,611] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2805 is 2.879203629274295
+INFO  [2016-11-14 21:51:02,615] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2810 is 2.878947745268277
+INFO  [2016-11-14 21:51:02,619] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2815 is 2.8783933617225226
+INFO  [2016-11-14 21:51:02,625] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2820 is 2.8779887056011666
+INFO  [2016-11-14 21:51:02,629] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2825 is 2.87758405002636
+INFO  [2016-11-14 21:51:02,633] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2830 is 2.9417605507679614
+INFO  [2016-11-14 21:51:02,637] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2835 is 2.876625013652973
+INFO  [2016-11-14 21:51:02,641] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2840 is 2.8762205980665163
+INFO  [2016-11-14 21:51:02,645] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2845 is 2.875666694598099
+INFO  [2016-11-14 21:51:02,649] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2850 is 2.940731545097844
+INFO  [2016-11-14 21:51:02,653] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2855 is 2.8747081393183507
+INFO  [2016-11-14 21:51:02,657] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2860 is 2.874303725870758
+INFO  [2016-11-14 21:51:02,661] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2865 is 2.8738993129502486
+INFO  [2016-11-14 21:51:02,664] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2870 is 2.9400041474209653
+INFO  [2016-11-14 21:51:02,668] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2875 is 2.9397470782582076
+INFO  [2016-11-14 21:51:02,672] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2880 is 2.8725365890427326
+INFO  [2016-11-14 21:51:02,676] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2885 is 2.8719829282351306
+INFO  [2016-11-14 21:51:02,680] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2890 is 2.939126554533349
+INFO  [2016-11-14 21:51:02,684] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2895 is 2.871174585090753
+INFO  [2016-11-14 21:51:02,689] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2900 is 2.9387631015956424
+INFO  [2016-11-14 21:51:02,693] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2905 is 2.8703662440854822
+INFO  [2016-11-14 21:51:02,697] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2910 is 2.8696630975274955
+INFO  [2016-11-14 21:51:02,701] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2915 is 2.9381428241670027
+INFO  [2016-11-14 21:51:02,704] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2920 is 2.9378857598199324
+INFO  [2016-11-14 21:51:02,709] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2925 is 2.8684508298963927
+INFO  [2016-11-14 21:51:02,712] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2930 is 2.8680469007429563
+INFO  [2016-11-14 21:51:02,716] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2935 is 2.867493483678056
+INFO  [2016-11-14 21:51:02,721] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2940 is 2.937159822241053
+INFO  [2016-11-14 21:51:02,725] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2945 is 2.866685866308486
+INFO  [2016-11-14 21:51:02,729] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2950 is 2.8661324507845976
+INFO  [2016-11-14 21:51:02,733] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2955 is 2.865728524239238
+INFO  [2016-11-14 21:51:02,738] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2960 is 2.865325074975187
+INFO  [2016-11-14 21:51:02,742] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2965 is 2.9361773101988375
+INFO  [2016-11-14 21:51:02,746] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2970 is 2.8643679745050963
+INFO  [2016-11-14 21:51:02,750] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2975 is 2.8639645267697844
+INFO  [2016-11-14 21:51:02,755] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2980 is 2.8634113527922778
+INFO  [2016-11-14 21:51:02,760] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2985 is 2.9351507456478747
+INFO  [2016-11-14 21:51:02,764] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2990 is 2.862454733248597
+INFO  [2016-11-14 21:51:02,768] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 2995 is 2.862051287681658
+INFO  [2016-11-14 21:51:02,773] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3000 is 2.8616476042191983
+INFO  [2016-11-14 21:51:02,784] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3005 is 2.9344257888817293
+INFO  [2016-11-14 21:51:02,797] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3010 is 2.934169449105272
+INFO  [2016-11-14 21:51:02,805] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3015 is 2.860288022165734
+INFO  [2016-11-14 21:51:02,816] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3020 is 2.859735090754328
+INFO  [2016-11-14 21:51:02,822] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3025 is 2.9335508750593595
+INFO  [2016-11-14 21:51:02,830] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3030 is 2.9334425953492054
+INFO  [2016-11-14 21:51:02,841] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3035 is 2.858673538044641
+INFO  [2016-11-14 21:51:02,848] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3040 is 2.8582703355233434
+INFO  [2016-11-14 21:51:02,855] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3045 is 2.857717645103654
+INFO  [2016-11-14 21:51:02,861] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3050 is 2.9327186108085876
+INFO  [2016-11-14 21:51:02,867] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3055 is 3.01427322687228
+INFO  [2016-11-14 21:51:02,874] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3060 is 2.8565075653490024
+INFO  [2016-11-14 21:51:02,881] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3065 is 2.9320990954228354
+INFO  [2016-11-14 21:51:02,888] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3070 is 2.8557016428043855
+INFO  [2016-11-14 21:51:02,894] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3075 is 2.8549997053971508
+INFO  [2016-11-14 21:51:02,903] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3080 is 2.931481253516218
+INFO  [2016-11-14 21:51:02,913] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3085 is 2.931225159913408
+INFO  [2016-11-14 21:51:02,918] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3090 is 2.8537908269383965
+INFO  [2016-11-14 21:51:02,924] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3095 is 2.853388106903497
+INFO  [2016-11-14 21:51:02,931] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3100 is 2.8528358989131575
+INFO  [2016-11-14 21:51:02,936] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3105 is 2.9305021514521794
+INFO  [2016-11-14 21:51:02,952] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3110 is 2.8520304613402456
+INFO  [2016-11-14 21:51:02,959] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3115 is 2.8514782548371347
+INFO  [2016-11-14 21:51:02,964] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3120 is 2.851075537346598
+INFO  [2016-11-14 21:51:02,970] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3125 is 2.8506728203506495
+INFO  [2016-11-14 21:51:02,975] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3130 is 2.929523539002571
+INFO  [2016-11-14 21:51:02,980] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3135 is 2.849718376207572
+INFO  [2016-11-14 21:51:02,984] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3140 is 2.8494651491582523
+INFO  [2016-11-14 21:51:02,990] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3145 is 2.928605309504531
+INFO  [2016-11-14 21:51:02,995] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3150 is 2.9283494608366905
+INFO  [2016-11-14 21:51:03,000] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3155 is 2.8481082324762936
+INFO  [2016-11-14 21:51:03,005] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3160 is 2.8475565073549274
+INFO  [2016-11-14 21:51:03,010] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3165 is 2.927732836809094
+INFO  [2016-11-14 21:51:03,016] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3170 is 2.8467517971343907
+INFO  [2016-11-14 21:51:03,021] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3175 is 2.9273720630023443
+INFO  [2016-11-14 21:51:03,028] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3180 is 2.845947327379944
+INFO  [2016-11-14 21:51:03,031] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3185 is 2.8452463546890763
+INFO  [2016-11-14 21:51:03,036] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3190 is 2.926755923376851
+INFO  [2016-11-14 21:51:03,041] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3195 is 2.926500317617532
+INFO  [2016-11-14 21:51:03,046] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3200 is 2.844039893643115
+INFO  [2016-11-14 21:51:03,051] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3205 is 2.843637661503305
+INFO  [2016-11-14 21:51:03,063] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3210 is 2.8430864182398428
+INFO  [2016-11-14 21:51:03,068] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3215 is 2.9257794991733936
+INFO  [2016-11-14 21:51:03,073] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3220 is 2.8422821948160113
+INFO  [2016-11-14 21:51:03,078] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3225 is 2.8417311914829915
+INFO  [2016-11-14 21:51:03,083] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3230 is 2.841329200175442
+INFO  [2016-11-14 21:51:03,087] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3235 is 2.8409272094248577
+INFO  [2016-11-14 21:51:03,092] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3240 is 2.92480356424706
+INFO  [2016-11-14 21:51:03,096] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3245 is 2.8399742177391185
+INFO  [2016-11-14 21:51:03,100] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3250 is 2.839572466889261
+INFO  [2016-11-14 21:51:03,105] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3255 is 2.8390212279985536
+INFO  [2016-11-14 21:51:03,110] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3260 is 2.923782117803767
+INFO  [2016-11-14 21:51:03,115] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3265 is 2.838068478747393
+INFO  [2016-11-14 21:51:03,120] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3270 is 2.837666968204962
+INFO  [2016-11-14 21:51:03,124] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3275 is 3.0157797004559477
+INFO  [2016-11-14 21:51:03,128] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3280 is 2.8370117682215605
+INFO  [2016-11-14 21:51:03,131] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3285 is 2.922955216617911
+INFO  [2016-11-14 21:51:03,135] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3290 is 2.836208512320334
+INFO  [2016-11-14 21:51:03,139] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3295 is 2.83550850417441
+INFO  [2016-11-14 21:51:03,144] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3300 is 2.9223405399884874
+INFO  [2016-11-14 21:51:03,149] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3305 is 2.8348542627313367
+INFO  [2016-11-14 21:51:03,155] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3310 is 2.921979554454849
+INFO  [2016-11-14 21:51:03,159] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3315 is 2.921724675739357
+INFO  [2016-11-14 21:51:03,164] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3320 is 2.833500732846745
+INFO  [2016-11-14 21:51:03,168] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3325 is 2.832950216138898
+INFO  [2016-11-14 21:51:03,172] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3330 is 2.9211102464132352
+INFO  [2016-11-14 21:51:03,177] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3335 is 2.8321476841498314
+INFO  [2016-11-14 21:51:03,181] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3340 is 2.9207509355418506
+INFO  [2016-11-14 21:51:03,185] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3345 is 2.8313453926039025
+INFO  [2016-11-14 21:51:03,190] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3350 is 2.830645866663487
+INFO  [2016-11-14 21:51:03,195] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3355 is 2.9201372285851415
+INFO  [2016-11-14 21:51:03,200] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3360 is 2.919882354316796
+INFO  [2016-11-14 21:51:03,204] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3365 is 2.829442553538747
+INFO  [2016-11-14 21:51:03,208] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3370 is 2.8290417679841093
+INFO  [2016-11-14 21:51:03,214] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3375 is 2.828491494507896
+INFO  [2016-11-14 21:51:03,219] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3380 is 2.91916469980112
+INFO  [2016-11-14 21:51:03,224] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3385 is 2.9187591473905417
+INFO  [2016-11-14 21:51:03,229] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3390 is 2.918350495902246
+INFO  [2016-11-14 21:51:03,232] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3395 is 2.917643583318522
+INFO  [2016-11-14 21:51:03,237] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3400 is 2.917085682843127
+INFO  [2016-11-14 21:51:03,242] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3405 is 2.9163790096932214
+INFO  [2016-11-14 21:51:03,246] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3410 is 2.9156720985265383
+INFO  [2016-11-14 21:51:03,251] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3415 is 2.914965187881574
+INFO  [2016-11-14 21:51:03,254] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3420 is 2.9142585160591072
+INFO  [2016-11-14 21:51:03,259] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3425 is 2.9135520831579935
+INFO  [2016-11-14 21:51:03,262] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3430 is 2.912845412365325
+INFO  [2016-11-14 21:51:03,266] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3435 is 2.912138980474996
+INFO  [2016-11-14 21:51:03,270] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3440 is 2.911432310565988
+INFO  [2016-11-14 21:51:03,274] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3445 is 2.9107258795887145
+INFO  [2016-11-14 21:51:03,278] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3450 is 2.9100196875072903
+INFO  [2016-11-14 21:51:03,282] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3455 is 2.9093132574480123
+INFO  [2016-11-14 21:51:03,285] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3460 is 2.908607066355499
+INFO  [2016-11-14 21:51:03,289] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3465 is 2.9079008756368543
+INFO  [2016-11-14 21:51:03,293] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3470 is 2.9071949238308137
+INFO  [2016-11-14 21:51:03,296] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3475 is 2.906488734117093
+INFO  [2016-11-14 21:51:03,300] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3480 is 2.9057827832672594
+INFO  [2016-11-14 21:51:03,304] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3485 is 2.9050768329546535
+INFO  [2016-11-14 21:51:03,308] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3490 is 2.9043708830233688
+INFO  [2016-11-14 21:51:03,311] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3495 is 2.903665172023643
+INFO  [2016-11-14 21:51:03,315] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3500 is 2.9029592230249457
+INFO  [2016-11-14 21:51:03,319] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3505 is 3.017187480570871
+INFO  [2016-11-14 21:51:03,324] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3510 is 3.016774549005616
+INFO  [2016-11-14 21:51:03,328] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3515 is 3.016060018344619
+INFO  [2016-11-14 21:51:03,331] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3520 is 3.01534548812001
+INFO  [2016-11-14 21:51:03,335] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3525 is 3.014630958477312
+INFO  [2016-11-14 21:51:03,339] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3530 is 3.0140673482127958
+INFO  [2016-11-14 21:51:03,343] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3535 is 2.90204567527008
+INFO  [2016-11-14 21:51:03,351] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3540 is 3.013091286437283
+INFO  [2016-11-14 21:51:03,358] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3545 is 3.012376997028275
+INFO  [2016-11-14 21:51:03,363] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3550 is 2.901420102873437
+INFO  [2016-11-14 21:51:03,367] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3555 is 2.901311159164316
+INFO  [2016-11-14 21:51:03,372] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3560 is 2.9010529658583546
+INFO  [2016-11-14 21:51:03,377] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3565 is 3.010726957267362
+INFO  [2016-11-14 21:51:03,381] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3570 is 3.0101638275510942
+INFO  [2016-11-14 21:51:03,386] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3575 is 3.009600698279098
+INFO  [2016-11-14 21:51:03,391] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3580 is 2.900169685810459
+INFO  [2016-11-14 21:51:03,396] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3585 is 2.8289309459395064
+INFO  [2016-11-14 21:51:03,401] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3590 is 2.828231681106091
+INFO  [2016-11-14 21:51:03,408] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3595 is 2.8275321782732834
+INFO  [2016-11-14 21:51:03,414] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3600 is 2.8268331526732857
+INFO  [2016-11-14 21:51:03,421] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3605 is 2.900255364396747
+INFO  [2016-11-14 21:51:03,426] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3610 is 2.8263291726345523
+INFO  [2016-11-14 21:51:03,432] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3615 is 2.8256299100606204
+INFO  [2016-11-14 21:51:03,437] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3620 is 2.824930886343828
+INFO  [2016-11-14 21:51:03,442] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3625 is 3.008968830148977
+INFO  [2016-11-14 21:51:03,446] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3630 is 2.8998780455669313
+INFO  [2016-11-14 21:51:03,450] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3635 is 2.8993215974942936
+INFO  [2016-11-14 21:51:03,457] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3640 is 2.8986163767279014
+INFO  [2016-11-14 21:51:03,461] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3645 is 3.0082248103643954
+INFO  [2016-11-14 21:51:03,465] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3650 is 2.8976529714023256
+INFO  [2016-11-14 21:51:03,469] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3655 is 2.897096763622085
+INFO  [2016-11-14 21:51:03,473] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3660 is 2.896391544639187
+INFO  [2016-11-14 21:51:03,477] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3665 is 2.895686564572226
+INFO  [2016-11-14 21:51:03,481] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3670 is 2.8949813464806406
+INFO  [2016-11-14 21:51:03,485] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3675 is 3.007863985184166
+INFO  [2016-11-14 21:51:03,491] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3680 is 2.894319546133781
+INFO  [2016-11-14 21:51:03,495] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3685 is 3.0074928179275084
+INFO  [2016-11-14 21:51:03,499] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3690 is 2.8933585322040503
+INFO  [2016-11-14 21:51:03,503] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3695 is 2.892653554848707
+INFO  [2016-11-14 21:51:03,507] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3700 is 2.8920978279367686
+INFO  [2016-11-14 21:51:03,510] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3705 is 2.824981117840677
+INFO  [2016-11-14 21:51:03,514] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3710 is 2.8909880443995077
+INFO  [2016-11-14 21:51:03,518] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3715 is 2.890283307255337
+INFO  [2016-11-14 21:51:03,522] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3720 is 2.889578570542694
+INFO  [2016-11-14 21:51:03,526] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3725 is 2.825023431470713
+INFO  [2016-11-14 21:51:03,529] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3730 is 2.888470459578064
+INFO  [2016-11-14 21:51:03,534] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3735 is 2.887765962636188
+INFO  [2016-11-14 21:51:03,538] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3740 is 2.8870617045902316
+INFO  [2016-11-14 21:51:03,542] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3745 is 2.8863572084656974
+INFO  [2016-11-14 21:51:03,545] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3750 is 3.0075716296509247
+INFO  [2016-11-14 21:51:03,549] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3755 is 2.8850977061765213
+INFO  [2016-11-14 21:51:03,553] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3760 is 2.8843934499049286
+INFO  [2016-11-14 21:51:03,557] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3765 is 2.883839874566477
+INFO  [2016-11-14 21:51:03,562] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3770 is 2.883135619172801
+INFO  [2016-11-14 21:51:03,568] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3775 is 2.882431602611516
+INFO  [2016-11-14 21:51:03,572] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3780 is 2.8817275865362775
+INFO  [2016-11-14 21:51:03,576] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3785 is 2.881023570845286
+INFO  [2016-11-14 21:51:03,581] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3790 is 2.825202425351264
+INFO  [2016-11-14 21:51:03,585] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3795 is 2.824503178946893
+INFO  [2016-11-14 21:51:03,589] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3800 is 2.823952706206414
+INFO  [2016-11-14 21:51:03,597] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3805 is 2.8234031874795185
+INFO  [2016-11-14 21:51:03,601] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3810 is 2.8799105731277486
+INFO  [2016-11-14 21:51:03,607] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3815 is 2.8792067985393164
+INFO  [2016-11-14 21:51:03,611] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3820 is 2.878503024399073
+INFO  [2016-11-14 21:51:03,616] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3825 is 2.877799489096868
+INFO  [2016-11-14 21:51:03,620] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3830 is 2.8770957158035095
+INFO  [2016-11-14 21:51:03,624] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3835 is 2.8763921813938365
+INFO  [2016-11-14 21:51:03,631] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3840 is 3.0078650466187686
+INFO  [2016-11-14 21:51:03,637] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3845 is 3.0073021800187667
+INFO  [2016-11-14 21:51:03,644] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3850 is 3.006588156543413
+INFO  [2016-11-14 21:51:03,651] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3855 is 3.0060255292113216
+INFO  [2016-11-14 21:51:03,657] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3860 is 3.0054626639641655
+INFO  [2016-11-14 21:51:03,663] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3865 is 2.875597535871
+INFO  [2016-11-14 21:51:03,669] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3870 is 3.0044883305001506
+INFO  [2016-11-14 21:51:03,675] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3875 is 3.0039257049352384
+INFO  [2016-11-14 21:51:03,681] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3880 is 3.0032121608687743
+INFO  [2016-11-14 21:51:03,687] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3885 is 3.0024986172491914
+INFO  [2016-11-14 21:51:03,692] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3890 is 3.001785074001943
+INFO  [2016-11-14 21:51:03,696] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3895 is 3.0013738459822497
+INFO  [2016-11-14 21:51:03,701] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3900 is 3.0006603036445445
+INFO  [2016-11-14 21:51:03,705] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3905 is 3.0002488380579417
+INFO  [2016-11-14 21:51:03,709] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3910 is 2.8749282104155847
+INFO  [2016-11-14 21:51:03,714] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3915 is 2.874672194607164
+INFO  [2016-11-14 21:51:03,719] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3920 is 2.873968667579499
+INFO  [2016-11-14 21:51:03,723] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3925 is 2.8734158214978165
+INFO  [2016-11-14 21:51:03,727] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3930 is 2.9992486646595307
+INFO  [2016-11-14 21:51:03,731] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3935 is 2.8723072696469027
+INFO  [2016-11-14 21:51:03,738] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3940 is 2.9985771349194525
+INFO  [2016-11-14 21:51:03,743] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3945 is 2.8719437775436902
+INFO  [2016-11-14 21:51:03,748] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3950 is 2.8712407299087945
+INFO  [2016-11-14 21:51:03,752] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3955 is 2.8705376827278735
+INFO  [2016-11-14 21:51:03,757] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3960 is 2.9979893906219757
+INFO  [2016-11-14 21:51:03,791] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3965 is 2.8698766476693613
+INFO  [2016-11-14 21:51:03,797] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3970 is 2.8691736017766987
+INFO  [2016-11-14 21:51:03,804] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3975 is 2.9976621933417626
+INFO  [2016-11-14 21:51:03,814] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3980 is 2.8679169996670195
+INFO  [2016-11-14 21:51:03,821] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3985 is 2.867214193458492
+INFO  [2016-11-14 21:51:03,848] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3990 is 2.866511626054836
+INFO  [2016-11-14 21:51:03,854] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 3995 is 2.9972263335917018
+INFO  [2016-11-14 21:51:03,862] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4000 is 2.9965132766015055
+INFO  [2016-11-14 21:51:03,868] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4005 is 2.995799981688887
+INFO  [2016-11-14 21:51:03,875] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4010 is 2.995087164026781
+INFO  [2016-11-14 21:51:03,880] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4015 is 2.9943741083248097
+INFO  [2016-11-14 21:51:03,886] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4020 is 2.8658706020201374
+INFO  [2016-11-14 21:51:03,894] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4025 is 2.994156542002014
+INFO  [2016-11-14 21:51:03,900] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4030 is 2.86476349682558
+INFO  [2016-11-14 21:51:03,907] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4035 is 2.864061171682594
+INFO  [2016-11-14 21:51:03,913] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4040 is 2.863358370116513
+INFO  [2016-11-14 21:51:03,927] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4045 is 3.0248138198126697
+INFO  [2016-11-14 21:51:03,934] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4050 is 2.862550245230756
+INFO  [2016-11-14 21:51:03,940] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4055 is 3.024290605927736
+INFO  [2016-11-14 21:51:03,945] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4060 is 2.825185639694411
+INFO  [2016-11-14 21:51:03,950] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4065 is 2.993884962695473
+INFO  [2016-11-14 21:51:03,956] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4070 is 2.861382942547243
+INFO  [2016-11-14 21:51:03,962] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4075 is 2.8609786440323024
+INFO  [2016-11-14 21:51:03,968] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4080 is 2.8602765610562915
+INFO  [2016-11-14 21:51:03,977] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4085 is 2.9932994063967446
+INFO  [2016-11-14 21:51:03,984] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4090 is 2.859318954359431
+INFO  [2016-11-14 21:51:03,989] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4095 is 2.858617111108564
+INFO  [2016-11-14 21:51:03,997] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4100 is 2.857915029745663
+INFO  [2016-11-14 21:51:04,011] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4105 is 2.857213187310054
+INFO  [2016-11-14 21:51:04,023] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4110 is 2.8565113452590998
+INFO  [2016-11-14 21:51:04,035] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4115 is 2.8558095036175652
+INFO  [2016-11-14 21:51:04,049] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4120 is 2.8551076624220726
+INFO  [2016-11-14 21:51:04,061] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4125 is 2.8545550716238868
+INFO  [2016-11-14 21:51:04,068] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4130 is 2.8538534696367117
+INFO  [2016-11-14 21:51:04,074] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4135 is 2.8531518681137036
+INFO  [2016-11-14 21:51:04,081] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4140 is 2.8525992785519967
+INFO  [2016-11-14 21:51:04,086] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4145 is 2.851897677825315
+INFO  [2016-11-14 21:51:04,092] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4150 is 2.8511965543096944
+INFO  [2016-11-14 21:51:04,097] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4155 is 2.850792739214398
+INFO  [2016-11-14 21:51:04,103] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4160 is 2.8500916165153574
+INFO  [2016-11-14 21:51:04,111] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4165 is 2.8493902558607203
+INFO  [2016-11-14 21:51:04,116] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4170 is 2.8486891340252223
+INFO  [2016-11-14 21:51:04,121] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4175 is 2.848138216277929
+INFO  [2016-11-14 21:51:04,128] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4180 is 2.8474370952510624
+INFO  [2016-11-14 21:51:04,132] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4185 is 2.846736213059326
+INFO  [2016-11-14 21:51:04,136] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4190 is 2.846035331255931
+INFO  [2016-11-14 21:51:04,140] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4195 is 3.0252911244274214
+INFO  [2016-11-14 21:51:04,145] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4200 is 3.0247273341440293
+INFO  [2016-11-14 21:51:04,150] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4205 is 2.84467560057903
+INFO  [2016-11-14 21:51:04,154] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4210 is 2.8441234936303625
+INFO  [2016-11-14 21:51:04,158] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4215 is 2.9933502300088817
+INFO  [2016-11-14 21:51:04,162] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4220 is 2.9930909018572396
+INFO  [2016-11-14 21:51:04,165] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4225 is 2.8426178556692365
+INFO  [2016-11-14 21:51:04,169] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4230 is 2.8419174539849825
+INFO  [2016-11-14 21:51:04,173] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4235 is 2.8412168142817067
+INFO  [2016-11-14 21:51:04,177] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4240 is 3.024907911942646
+INFO  [2016-11-14 21:51:04,182] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4245 is 3.024342933170139
+INFO  [2016-11-14 21:51:04,187] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4250 is 2.840155356206505
+INFO  [2016-11-14 21:51:04,191] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4255 is 2.8394551949327713
+INFO  [2016-11-14 21:51:04,195] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4260 is 2.838754795660705
+INFO  [2016-11-14 21:51:04,200] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4265 is 2.9931640407000093
+INFO  [2016-11-14 21:51:04,205] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4270 is 2.9930534898071266
+INFO  [2016-11-14 21:51:04,209] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4275 is 2.838288913238146
+INFO  [2016-11-14 21:51:04,213] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4280 is 2.8375887539543423
+INFO  [2016-11-14 21:51:04,217] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4285 is 2.836888595122279
+INFO  [2016-11-14 21:51:04,221] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4290 is 2.8361886750637506
+INFO  [2016-11-14 21:51:04,226] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4295 is 2.992666203717707
+INFO  [2016-11-14 21:51:04,230] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4300 is 2.991953409869276
+INFO  [2016-11-14 21:51:04,234] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4305 is 2.991240616438303
+INFO  [2016-11-14 21:51:04,239] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4310 is 2.9905278233582995
+INFO  [2016-11-14 21:51:04,242] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4315 is 3.023692880298559
+INFO  [2016-11-14 21:51:04,248] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4320 is 2.826653832272762
+INFO  [2016-11-14 21:51:04,252] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4325 is 2.8259546302324288
+INFO  [2016-11-14 21:51:04,261] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4330 is 2.9897930968582145
+INFO  [2016-11-14 21:51:04,265] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4335 is 2.835108633770582
+INFO  [2016-11-14 21:51:04,268] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4340 is 2.989124255740523
+INFO  [2016-11-14 21:51:04,274] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4345 is 2.8344524295827913
+INFO  [2016-11-14 21:51:04,278] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4350 is 2.834198833877044
+INFO  [2016-11-14 21:51:04,283] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4355 is 2.9886490941192987
+INFO  [2016-11-14 21:51:04,287] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4360 is 2.833245085698651
+INFO  [2016-11-14 21:51:04,291] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4365 is 2.832693944801668
+INFO  [2016-11-14 21:51:04,296] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4370 is 2.9878716212794427
+INFO  [2016-11-14 21:51:04,300] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4375 is 2.9877644165757182
+INFO  [2016-11-14 21:51:04,305] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4380 is 2.831935547856523
+INFO  [2016-11-14 21:51:04,308] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4385 is 3.023504483749388
+INFO  [2016-11-14 21:51:04,312] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4390 is 3.0289097561850347
+INFO  [2016-11-14 21:51:04,316] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4395 is 2.8314696939875117
+INFO  [2016-11-14 21:51:04,320] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4400 is 2.830919986349937
+INFO  [2016-11-14 21:51:04,323] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4405 is 2.830368848634072
+INFO  [2016-11-14 21:51:04,327] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4410 is 2.8296694148691572
+INFO  [2016-11-14 21:51:04,331] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4415 is 2.828969981550476
+INFO  [2016-11-14 21:51:04,334] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4420 is 2.8282705486228634
+INFO  [2016-11-14 21:51:04,338] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4425 is 2.82757135446425
+INFO  [2016-11-14 21:51:04,342] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4430 is 2.825622370539913
+INFO  [2016-11-14 21:51:04,345] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4435 is 2.8267728285098457
+INFO  [2016-11-14 21:51:04,350] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4440 is 2.826223839254319
+INFO  [2016-11-14 21:51:04,353] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4445 is 2.8256729430401633
+INFO  [2016-11-14 21:51:04,357] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4450 is 3.022988725472138
+INFO  [2016-11-14 21:51:04,361] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4455 is 3.0222735596058143
+INFO  [2016-11-14 21:51:04,365] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4460 is 2.825504889184405
+INFO  [2016-11-14 21:51:04,368] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4465 is 3.021298370128769
+INFO  [2016-11-14 21:51:04,372] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4470 is 3.020583443855072
+INFO  [2016-11-14 21:51:04,376] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4475 is 2.825337315677501
+INFO  [2016-11-14 21:51:04,380] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4480 is 2.8246383642055966
+INFO  [2016-11-14 21:51:04,384] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4485 is 2.8239391747593046
+INFO  [2016-11-14 21:51:04,391] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4490 is 3.019998017458811
+INFO  [2016-11-14 21:51:04,397] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4495 is 2.8228397738151907
+INFO  [2016-11-14 21:51:04,401] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4500 is 2.822437655009093
+INFO  [2016-11-14 21:51:04,405] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4505 is 2.822038874503191
+INFO  [2016-11-14 21:51:04,409] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4510 is 2.821490129024148
+INFO  [2016-11-14 21:51:04,412] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4515 is 2.8209397150333024
+INFO  [2016-11-14 21:51:04,417] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4520 is 3.029364378135783
+INFO  [2016-11-14 21:51:04,420] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4525 is 2.8198405571217457
+INFO  [2016-11-14 21:51:04,425] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4530 is 2.819142086343325
+INFO  [2016-11-14 21:51:04,429] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4535 is 2.8184436158984716
+INFO  [2016-11-14 21:51:04,433] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4540 is 2.8177451459024305
+INFO  [2016-11-14 21:51:04,437] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4545 is 2.817046914719793
+INFO  [2016-11-14 21:51:04,441] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4550 is 2.8163486838401743
+INFO  [2016-11-14 21:51:04,445] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4555 is 2.8256471059876
+INFO  [2016-11-14 21:51:04,449] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4560 is 2.8151021885764314
+INFO  [2016-11-14 21:51:04,453] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4565 is 2.814850993727914
+INFO  [2016-11-14 21:51:04,457] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4570 is 2.814152764372368
+INFO  [2016-11-14 21:51:04,461] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4575 is 2.81345453543424
+INFO  [2016-11-14 21:51:04,465] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4580 is 2.8130533764060184
+INFO  [2016-11-14 21:51:04,469] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4585 is 3.0297666663014655
+INFO  [2016-11-14 21:51:04,473] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4590 is 2.812400547932927
+INFO  [2016-11-14 21:51:04,478] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4595 is 2.811851332098346
+INFO  [2016-11-14 21:51:04,481] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4600 is 2.811451366677394
+INFO  [2016-11-14 21:51:04,486] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4605 is 3.019770416753456
+INFO  [2016-11-14 21:51:04,490] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4610 is 2.825289860886389
+INFO  [2016-11-14 21:51:04,494] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4615 is 2.824590919695094
+INFO  [2016-11-14 21:51:04,497] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4620 is 3.0197452122021664
+INFO  [2016-11-14 21:51:04,502] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4625 is 2.824088538594397
+INFO  [2016-11-14 21:51:04,505] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4630 is 2.8104012695648373
+INFO  [2016-11-14 21:51:04,510] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4635 is 2.809703760410397
+INFO  [2016-11-14 21:51:04,514] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4640 is 2.809006013138415
+INFO  [2016-11-14 21:51:04,518] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4645 is 2.8083085047006313
+INFO  [2016-11-14 21:51:04,521] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4650 is 3.019397266779886
+INFO  [2016-11-14 21:51:04,525] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4655 is 2.988638752562775
+INFO  [2016-11-14 21:51:04,529] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4660 is 2.988077382221716
+INFO  [2016-11-14 21:51:04,535] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4665 is 2.80804046638819
+INFO  [2016-11-14 21:51:04,539] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4670 is 2.987706376512224
+INFO  [2016-11-14 21:51:04,543] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4675 is 2.8070912963353853
+INFO  [2016-11-14 21:51:04,547] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4680 is 2.8068386795667126
+INFO  [2016-11-14 21:51:04,551] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4685 is 2.8061411741029105
+INFO  [2016-11-14 21:51:04,554] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4690 is 2.8057405001196485
+INFO  [2016-11-14 21:51:04,558] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4695 is 2.8050432337832762
+INFO  [2016-11-14 21:51:04,562] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4700 is 2.8044942641969786
+INFO  [2016-11-14 21:51:04,566] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4705 is 2.8037972370586646
+INFO  [2016-11-14 21:51:04,569] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4710 is 2.8030999718366303
+INFO  [2016-11-14 21:51:04,573] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4715 is 2.802551003308205
+INFO  [2016-11-14 21:51:04,577] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4720 is 3.0177186356222303
+INFO  [2016-11-14 21:51:04,581] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4725 is 3.0174593464234682
+INFO  [2016-11-14 21:51:04,586] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4730 is 2.801497762337041
+INFO  [2016-11-14 21:51:04,592] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4735 is 3.017244276031735
+INFO  [2016-11-14 21:51:04,600] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4740 is 2.800548601839082
+INFO  [2016-11-14 21:51:04,604] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4745 is 2.8001498392402406
+INFO  [2016-11-14 21:51:04,609] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4750 is 2.799453053800592
+INFO  [2016-11-14 21:51:04,613] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4755 is 2.7989045650707887
+INFO  [2016-11-14 21:51:04,617] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4760 is 2.7983560767262454
+INFO  [2016-11-14 21:51:04,621] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4765 is 2.797955885069929
+INFO  [2016-11-14 21:51:04,626] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4770 is 2.7972593395462395
+INFO  [2016-11-14 21:51:04,630] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4775 is 2.796562555880573
+INFO  [2016-11-14 21:51:04,634] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4780 is 2.7958662494517523
+INFO  [2016-11-14 21:51:04,638] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4785 is 2.795169943414286
+INFO  [2016-11-14 21:51:04,643] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4790 is 2.7944736376841552
+INFO  [2016-11-14 21:51:04,647] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4795 is 2.7937773323607127
+INFO  [2016-11-14 21:51:04,651] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4800 is 2.7930810273833746
+INFO  [2016-11-14 21:51:04,654] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4805 is 3.0306919603638995
+INFO  [2016-11-14 21:51:04,660] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4810 is 2.7921361685705617
+INFO  [2016-11-14 21:51:04,664] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4815 is 2.7918876147659
+INFO  [2016-11-14 21:51:04,670] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4820 is 3.0166310981676783
+INFO  [2016-11-14 21:51:04,674] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4825 is 2.790643781264626
+INFO  [2016-11-14 21:51:04,679] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4830 is 2.789947955286983
+INFO  [2016-11-14 21:51:04,683] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4835 is 2.789252129650876
+INFO  [2016-11-14 21:51:04,686] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4840 is 2.788556304382459
+INFO  [2016-11-14 21:51:04,692] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4845 is 2.7878607179154544
+INFO  [2016-11-14 21:51:04,696] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4850 is 2.7871648933551914
+INFO  [2016-11-14 21:51:04,699] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4855 is 2.8250544936027877
+INFO  [2016-11-14 21:51:04,703] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4860 is 2.7866701760600017
+INFO  [2016-11-14 21:51:04,905] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4865 is 2.7864235331210434
+INFO  [2016-11-14 21:51:04,912] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4870 is 2.823709220177638
+INFO  [2016-11-14 21:51:04,918] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4875 is 2.823160501682452
+INFO  [2016-11-14 21:51:04,926] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4880 is 2.7858335719536678
+INFO  [2016-11-14 21:51:04,933] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4885 is 2.822364188421936
+INFO  [2016-11-14 21:51:04,940] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4890 is 2.785490254679251
+INFO  [2016-11-14 21:51:04,946] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4895 is 2.8215678765737633
+INFO  [2016-11-14 21:51:04,952] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4900 is 2.8208691945641595
+INFO  [2016-11-14 21:51:04,959] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4905 is 2.7849005372306075
+INFO  [2016-11-14 21:51:04,965] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4910 is 2.7846541359853987
+INFO  [2016-11-14 21:51:04,971] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4915 is 2.819675088104425
+INFO  [2016-11-14 21:51:04,977] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4920 is 2.819277291764933
+INFO  [2016-11-14 21:51:05,057] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4925 is 2.818729053649026
+INFO  [2016-11-14 21:51:05,066] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4930 is 2.7839684650404424
+INFO  [2016-11-14 21:51:05,074] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4935 is 2.8179332242945447
+INFO  [2016-11-14 21:51:05,082] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4940 is 2.817385225635185
+INFO  [2016-11-14 21:51:05,087] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4945 is 2.8169874310399385
+INFO  [2016-11-14 21:51:05,092] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4950 is 2.816589875183241
+INFO  [2016-11-14 21:51:05,097] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4955 is 2.7830366400215656
+INFO  [2016-11-14 21:51:05,102] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4960 is 2.8156440840635395
+INFO  [2016-11-14 21:51:05,110] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4965 is 2.8152465292979
+INFO  [2016-11-14 21:51:05,117] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4970 is 2.8146985327355627
+INFO  [2016-11-14 21:51:05,125] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4975 is 2.7820522432214267
+INFO  [2016-11-14 21:51:05,131] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4980 is 2.8137534596341616
+INFO  [2016-11-14 21:51:05,137] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4985 is 2.8133559062647633
+INFO  [2016-11-14 21:51:05,144] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4990 is 2.990102403816893
+INFO  [2016-11-14 21:51:05,150] org.deeplearning4j.optimize.listeners.ScoreIterationListener: Score at iteration 4995 is 2.9895412959951018
+Evaluate model....
+
+Examples labeled as 4 classified by model as 16: 3 times
+Examples labeled as 4 classified by model as 18: 9 times
+Examples labeled as 5 classified by model as 16: 2 times
+Examples labeled as 5 classified by model as 18: 70 times
+Examples labeled as 6 classified by model as 16: 6 times
+Examples labeled as 6 classified by model as 18: 73 times
+Examples labeled as 7 classified by model as 16: 3 times
+Examples labeled as 7 classified by model as 18: 515 times
+Examples labeled as 8 classified by model as 16: 421 times
+Examples labeled as 8 classified by model as 18: 131 times
+Examples labeled as 9 classified by model as 16: 1 times
+Examples labeled as 9 classified by model as 18: 1 times
+Examples labeled as 10 classified by model as 16: 8 times
+Examples labeled as 10 classified by model as 18: 2 times
+Examples labeled as 11 classified by model as 16: 641 times
+Examples labeled as 11 classified by model as 18: 9 times
+Examples labeled as 14 classified by model as 16: 178 times
+Examples labeled as 16 classified by model as 16: 1571 times
+Examples labeled as 16 classified by model as 18: 251 times
+Examples labeled as 17 classified by model as 16: 12 times
+Examples labeled as 17 classified by model as 18: 9 times
+Examples labeled as 18 classified by model as 16: 926 times
+Examples labeled as 18 classified by model as 18: 124 times
+Examples labeled as 19 classified by model as 16: 27 times
+Examples labeled as 19 classified by model as 18: 5 times
+
+Warning: class 0 was never predicted by the model. This class was excluded from the average precision
+Warning: class 0 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 1 was never predicted by the model. This class was excluded from the average precision
+Warning: class 1 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 2 was never predicted by the model. This class was excluded from the average precision
+Warning: class 2 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 3 was never predicted by the model. This class was excluded from the average precision
+Warning: class 3 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 4 was never predicted by the model. This class was excluded from the average precision
+Warning: class 5 was never predicted by the model. This class was excluded from the average precision
+Warning: class 6 was never predicted by the model. This class was excluded from the average precision
+Warning: class 7 was never predicted by the model. This class was excluded from the average precision
+Warning: class 8 was never predicted by the model. This class was excluded from the average precision
+Warning: class 9 was never predicted by the model. This class was excluded from the average precision
+Warning: class 10 was never predicted by the model. This class was excluded from the average precision
+Warning: class 11 was never predicted by the model. This class was excluded from the average precision
+Warning: class 12 was never predicted by the model. This class was excluded from the average precision
+Warning: class 12 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 13 was never predicted by the model. This class was excluded from the average precision
+Warning: class 13 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 14 was never predicted by the model. This class was excluded from the average precision
+Warning: class 15 was never predicted by the model. This class was excluded from the average precision
+Warning: class 15 has never appeared as a true label. This class was excluded from the average recall
+Warning: class 17 was never predicted by the model. This class was excluded from the average precision
+Warning: class 19 was never predicted by the model. This class was excluded from the average precision
+
+==========================Scores========================================
+ Accuracy:  0.3391
+ Precision: 0.2585
+ Recall:    0.0754
+ F1 Score:  0.1168
+========================================================================
+****************Example finished********************
+
+Process finished with exit code 1
