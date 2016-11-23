@@ -1,0 +1,98 @@
+o.n.n.NativeOps - Number of threads used for NativeOps: 4
+o.n.n.Nd4jBlas - Number of threads used for BLAS: 4
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+o.d.n.c.NeuralNetConfiguration - Layer "Layer not named" momentum has been set but will not be applied unless the updater is set to NESTEROVS.
+INFO  [2016-11-23 16:19:27,230] org.eclipse.jetty.util.log: Logging initialized @11981ms
+INFO  [2016-11-23 16:19:27,326] io.dropwizard.assets.AssetsBundle: Registering AssetBundle with name: assets for path /assets/*
+      port: 8080
+
+      port: 8081
+
+WARN  [2016-11-23 16:19:27,465] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class org.deeplearning4j.ui.exception.GenericExceptionMapper: Existing previous registration found for the type.
+
+INFO  [2016-11-23 16:19:27,489] io.dropwizard.server.ServerFactory: Starting UiServer
+WARN  [2016-11-23 16:19:27,647] org.glassfish.jersey.internal.Errors: The following warnings have been detected: WARNING: Cannot create new registration for component type class io.dropwizard.jersey.jackson.JsonProcessingExceptionMapper: Existing previous registration found for the type.
+
+WARN  [2016-11-23 16:19:27,687] org.eclipse.jetty.server.ServerConnector: Acceptors should be <= availableProcessors: ServerConnector@53d505da{HTTP/1.1}{0.0.0.0:0}
+INFO  [2016-11-23 16:19:27,709] org.eclipse.jetty.setuid.SetUIDListener: Opened application@53d505da{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-11-23 16:19:27,710] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@288f057d{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-11-23 16:19:27,715] org.eclipse.jetty.server.Server: jetty-9.2.9.v20150224
+INFO  [2016-11-23 16:19:29,478] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /tsne (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    GET     /tsne/{path} (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/update (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/upload (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    POST    /tsne/vocab (org.deeplearning4j.ui.tsne.TsneDropwiz)
+    GET     /weights (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /weights/data (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /weights/updated (org.deeplearning4j.ui.weights.WeightDropwiz)
+    POST    /weights/update (org.deeplearning4j.ui.weights.WeightDropwiz)
+    GET     /api/coords (org.deeplearning4j.ui.api.ApiResource)
+    GET     /api/{path} (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/coords (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/update (org.deeplearning4j.ui.api.ApiResource)
+    POST    /api/upload (org.deeplearning4j.ui.api.ApiResource)
+    GET     /rl (org.deeplearning4j.ui.rl.RlDropwiz)
+    GET     /rl/state (org.deeplearning4j.ui.rl.RlDropwiz)
+    POST    /rl/state (org.deeplearning4j.ui.rl.RlDropwiz)
+    GET     /activations (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    GET     /activations/img (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    POST    /activations/update (org.deeplearning4j.ui.activation.ActivationsDropwiz)
+    GET     /word2vec (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    GET     /word2vec/{path} (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/upload (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/vocab (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    POST    /word2vec/words (org.deeplearning4j.ui.nearestneighbors.word2vec.NearestNeighborsDropwiz)
+    GET     /filters (org.deeplearning4j.ui.renders.RendersDropwiz)
+    GET     /filters/img (org.deeplearning4j.ui.renders.RendersDropwiz)
+    POST    /filters/update (org.deeplearning4j.ui.renders.RendersDropwiz)
+    GET     /flow (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/action/{id} (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/info (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     /flow/state (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/action/{id} (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/info (org.deeplearning4j.ui.flow.FlowDropwiz)
+    POST    /flow/state (org.deeplearning4j.ui.flow.FlowDropwiz)
+    GET     / (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /events (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /sessions (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+    GET     /whatsup (org.deeplearning4j.ui.defaults.DefaultDropwiz)
+
+INFO  [2016-11-23 16:19:29,495] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@12d1ac8{/,null,AVAILABLE}
+INFO  [2016-11-23 16:19:29,499] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+WARN  [2016-11-23 16:19:29,500] io.dropwizard.setup.AdminEnvironment: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS APPLICATION HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW      !
+!     IF IT DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE      !
+!    LETTING YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH OF YOUR    !
+!         APPLICATION'S DEPENDENCIES WHICH FULLY (BUT LIGHTLY) TESTS IT.       !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2016-11-23 16:19:29,511] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@75f3a2b6{/,null,AVAILABLE}
+INFO  [2016-11-23 16:19:29,548] org.eclipse.jetty.server.ServerConnector: Started application@53d505da{HTTP/1.1}{0.0.0.0:8080}
+INFO  [2016-11-23 16:19:29,554] org.eclipse.jetty.server.ServerConnector: Started admin@288f057d{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2016-11-23 16:19:29,554] org.eclipse.jetty.server.Server: Started @14305ms
+UI Histogram URL: http://localhost:8080/weights?sid=c663200a-6288-41e8-8e86-8222e54a8752
+INFO  [2016-11-23 16:19:29,563] org.deeplearning4j.examples.feedforward.LogAnalysisMLP: Train model....
+Exception in thread "main" java.lang.IllegalStateException: Column of left array 78 != rows of right 60 or rows of left array 1 != columns of right 41
+	at org.nd4j.linalg.util.LinAlgExceptions.assertMultiplies(LinAlgExceptions.java:85)
+	at org.nd4j.linalg.api.ndarray.BaseNDArray.mmuli(BaseNDArray.java:2635)
+	at org.nd4j.linalg.api.ndarray.BaseNDArray.mmul(BaseNDArray.java:2501)
+	at org.deeplearning4j.nn.layers.BaseLayer.preOutput(BaseLayer.java:354)
+	at org.deeplearning4j.nn.layers.BaseLayer.activate(BaseLayer.java:365)
+	at org.deeplearning4j.nn.layers.BaseLayer.activate(BaseLayer.java:385)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.activationFromPrevLayer(MultiLayerNetwork.java:552)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.feedForwardToLayer(MultiLayerNetwork.java:675)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.computeGradientAndScore(MultiLayerNetwork.java:1820)
+	at org.deeplearning4j.optimize.solvers.BaseOptimizer.gradientAndScore(BaseOptimizer.java:152)
+	at org.deeplearning4j.optimize.solvers.StochasticGradientDescent.optimize(StochasticGradientDescent.java:54)
+	at org.deeplearning4j.optimize.Solver.optimize(Solver.java:51)
+	at org.deeplearning4j.nn.multilayer.MultiLayerNetwork.fit(MultiLayerNetwork.java:1075)
+	at org.deeplearning4j.examples.feedforward.LogAnalysisMLP.main(LogAnalysisMLP.java:93)
